@@ -1,0 +1,231 @@
+{
+  "gerado_em": "2026-11-05T10:36:22",
+  "total": 17,
+  "imoveis": [
+    {
+      "id": 14050,
+      "codigo": "14050",
+      "titulo_tipo": "Casa 2 quartos",
+      "endereco": "Av. Nova América, 88, Jardim Santa Cecília, Guarulhos - SP",
+      "captador": "Dario Azevedo",
+      "tipo_negociacao": "Venda",
+      "valor": 450000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14050/media/casa-2-quartos-jardim-santa-cecilia-guarulhos-sp--33057922--small.jpg"
+    },
+    {
+      "id": 14049,
+      "codigo": "14049",
+      "titulo_tipo": "Sobrado 3 quartos",
+      "endereco": "Rua Tapaciquara, 240, Parque Renato Maia, Guarulhos - SP",
+      "captador": "Bryan Marques",
+      "tipo_negociacao": "Venda",
+      "valor": 3675000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14049/media/sobrado-parque-renato-maia-guarulhos-sp--9e230694--small.jpg"
+    },
+    {
+      "id": 14047,
+      "codigo": "14047",
+      "titulo_tipo": "Sobreloja",
+      "endereco": "Rua Cachoeira, 1460, Jardim Rosa de Franca, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Locação",
+      "valor": 6000,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14047/media/sobreloja-jardim-rosa-de-franca-guarulhos-sp--215788af--small.jpg"
+    },
+    {
+      "id": 14046,
+      "codigo": "14046",
+      "titulo_tipo": "Área",
+      "endereco": "Rua Fronia Kirol Filho, S/N, Vila Maria de Lourdes, Guarulhos - SP",
+      "captador": "Dario Azevedo",
+      "tipo_negociacao": "Venda",
+      "valor": 14000000,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14046/media/area-vila-maria-de-lourdes-guarulhos-sp--4fd1e617--small.jpg"
+    },
+    {
+      "id": 14044,
+      "codigo": "14044",
+      "titulo_tipo": "Salão",
+      "endereco": "Rua Cachoeira, 1482, Jardim Rosa de Franca, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Locação",
+      "valor": 7500,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14044/media/salao-jardim-rosa-de-franca-guarulhos-sp--e807a2eb--small.jpg"
+    },
+    {
+      "id": 14043,
+      "codigo": "14043",
+      "titulo_tipo": "Salão",
+      "endereco": "Rua São Pedro da Aldeia, 93 - salão 2, Jardim Moreira, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Locação",
+      "valor": 2500,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14043/media/salao-jardim-moreira-guarulhos-sp--c101d3ba--small.jpg"
+    },
+    {
+      "id": 14042,
+      "codigo": "14042",
+      "titulo_tipo": "Salão",
+      "endereco": "Rua São Pedro da Aldeia, 93, Jardim Moreira, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Locação",
+      "valor": 3000,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14042/media/salao-jardim-moreira-guarulhos-sp--d2073dbf--small.jpg"
+    },
+    {
+      "id": 14041,
+      "codigo": "14041",
+      "titulo_tipo": "Apartamento 3 quartos",
+      "endereco": "Rua Hélio Manzoni, 46 - Apto 115, Jardim Vila Galvao, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Venda",
+      "valor": 800000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14041/media/apartamento-3-quartos-jardim-vila-galvao-guarulhos-sp--a7adc4bc--small.jpg"
+    },
+    {
+      "id": 14040,
+      "codigo": "14040",
+      "titulo_tipo": "Casa 2 quartos",
+      "endereco": "Rua Almir Ribeiro, 49, Jardim São Roberto, Guarulhos - SP",
+      "captador": "Dalva Barros",
+      "tipo_negociacao": "Venda",
+      "valor": 425000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14040/media/casa-2-quartos-jardim-sao-roberto-guarulhos-sp--ceb16acb--small.jpg"
+    },
+    {
+      "id": 14039,
+      "codigo": "14039",
+      "titulo_tipo": "Apartamento 3 quartos",
+      "endereco": "Rua Augusta, 183 - Apto 163, Vila Augusta, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Venda",
+      "valor": 1150000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14039/media/apartamento-3-quartos-vila-augusta-guarulhos-sp--3d5d2809--small.jpg"
+    },
+    {
+      "id": 14038,
+      "codigo": "14038",
+      "titulo_tipo": "Flat 1 quarto",
+      "endereco": "Rua Barão de Mauá, 450 - 705, Centro, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda",
+      "valor": 279000,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14038/media/flat-1-quarto-centro-guarulhos-sp--81d1f779--small.jpg"
+    },
+    {
+      "id": 14037,
+      "codigo": "14037",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Cabo João Teruel Fregoni, 124 - 53, Ponte Grande, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda",
+      "valor": 370000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14037/media/apartamento-2-quartos-ponte-grande-guarulhos-sp--fbe50156--small.jpg"
+    },
+    {
+      "id": 14036,
+      "codigo": "14036",
+      "titulo_tipo": "Sobrado 2 quartos",
+      "endereco": "Rua Dario Luiz Setti, 126, Vila Santa Rita de Cássia, São Bernardo do Campo - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda",
+      "valor": 600000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14036/media/sobrado-2-quartos-vila-santa-rita-de-cassia-sao-bernardo-do-campo-sp--b120727c--small.jpg"
+    },
+    {
+      "id": 14024,
+      "codigo": "14024",
+      "titulo_tipo": "Sobrado 3 quartos",
+      "endereco": "Rua Samuel Reis de Oliveira, 150, Parque Continental I, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Venda",
+      "valor": 639000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14024/media/sobrado-3-quartos-parque-continental-i-guarulhos-sp--0f3f051f--small.jpg"
+    },
+    {
+      "id": 7490,
+      "codigo": "7490",
+      "titulo_tipo": "Sobrado",
+      "endereco": "Rua Doutor Epitácio Pessoa, 37 - -, Jardim Santa Francisca, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Locação",
+      "valor": 7500,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/7490/media/sobrado-jardim-santa-francisca-guarulhos-sp--20c1b70c--small.jpg"
+    },
+    {
+      "id": 2144,
+      "codigo": "2144",
+      "titulo_tipo": "Lote / Terreno",
+      "endereco": "Rodovia Ayrton Senna, 0, Lambari, Guararema - SP",
+      "captador": "Dario Azevedo",
+      "tipo_negociacao": "Venda",
+      "valor": 13500000,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/2144/media/lote--terreno-lambari-guararema-sp--425f0607--small.jpg"
+    },
+    {
+      "id": 848,
+      "codigo": "848",
+      "titulo_tipo": "Loja",
+      "endereco": "Avenida Emílio Ribas, 3293 - Loja, Jardim Vila Galvao, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Locação",
+      "valor": 1200,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/848/media/loja-jardim-vila-galvao-guarulhos-sp--930e887a--small.jpg"
+    }
+  ],
+  "campeao_venda": {
+    "id": 9637,
+    "codigo": "9637",
+    "titulo_tipo": "Apartamento 2 quartos",
+    "endereco": "Avenida da Paz, 209 - Apartamento 14, Jardim Sao Judas Tadeu, Guarulhos - SP",
+    "captador": "Andrea Marques",
+    "tipo_negociacao": "Venda",
+    "valor": 320000,
+    "quartos": 2,
+    "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/9637/media/apartamento-2-quartos-jardim-sao-judas-tadeu-guarulhos-sp--35e91dde--small.jpg",
+    "buscas": 6
+  },
+  "campeao_locacao": {
+    "id": 13366,
+    "codigo": "13366",
+    "titulo_tipo": "Apartamento 2 quartos",
+    "endereco": "Rua Maria Zintl, 114 - apartamento 4, Cocaia, Guarulhos - SP",
+    "captador": "Bryan Marques",
+    "tipo_negociacao": "Locação",
+    "valor": 1110,
+    "quartos": 2,
+    "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13366/media/789c33363435b530303332303231b030ccb1484d4dcfc8b4000038ae05ac--small.jpg",
+    "buscas": 14
+  },
+  "tipologia_mais_buscada_venda": {
+    "tipo": "Apartamento",
+    "bairro": "Jardim Sao Judas Tadeu",
+    "valor_medio": 320000,
+    "quantidade_imoveis": 1,
+    "buscas": 6
+  },
+  "tipologia_mais_buscada_locacao": {
+    "tipo": "Apartamento",
+    "bairro": "Cocaia",
+    "valor_medio": 1110,
+    "quantidade_imoveis": 1,
+    "buscas": 14
+  }
+}
