@@ -1,0 +1,4 @@
+.env
+sync_log.txt
+__pycache__/
+site/
