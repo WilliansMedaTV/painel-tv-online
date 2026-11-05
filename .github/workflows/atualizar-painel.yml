@@ -1,0 +1,64 @@
+# Atualiza os dados do painel e publica o site. Roda sozinho, na nuvem do GitHub.
+# Horarios abaixo estao em UTC (Brasilia = UTC-3): 11:00 UTC = 8h  |  16:00 UTC = 13h
+name: Atualizar painel
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+    - cron: "0 16 * * *"
+  workflow_dispatch:   # permite rodar na mao (aba Actions > Run workflow)
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Buscar imoveis no CRM e gerar imoveis.json
+        env:
+          TZ: America/Sao_Paulo
+          ROBUST_NICKNAME: ${{ secrets.ROBUST_NICKNAME }}
+          ROBUST_API_KEY: ${{ secrets.ROBUST_API_KEY }}
+        run: python sync_diario.py --uma-vez
+
+      - name: Guardar imoveis.json no repositorio
+        run: |
+          git config user.name "painel-bot"
+          git config user.email "painel-bot@users.noreply.github.com"
+          git add imoveis.json
+          git commit -m "Atualiza imoveis.json" || echo "Sem mudancas para guardar"
+          git push
+
+      - name: Montar o site
+        run: |
+          mkdir site
+          cp index.html imoveis.json site/
+          cp -r fotos_corretores site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
