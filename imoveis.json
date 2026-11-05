@@ -1,7 +1,18 @@
 {
-  "gerado_em": "2026-11-05T10:42:38",
-  "total": 17,
+  "gerado_em": "2026-11-05T18:42:18",
+  "total": 20,
   "imoveis": [
+    {
+      "id": 14053,
+      "codigo": "14053",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Avenida Presidente Humberto de Alencar Castelo Branco, 1449 - 184, Vila Augusta, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Venda",
+      "valor": 945000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14053/media/apartamento-2-quartos-vila-augusta-guarulhos-sp--6bf4b3d6--small.jpg"
+    },
     {
       "id": 14050,
       "codigo": "14050",
@@ -23,6 +34,17 @@
       "valor": 3675000,
       "quartos": 3,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14049/media/sobrado-parque-renato-maia-guarulhos-sp--9e230694--small.jpg"
+    },
+    {
+      "id": 14048,
+      "codigo": "14048",
+      "titulo_tipo": "Sobrado 5 quartos",
+      "endereco": "Rua Nossa Senhora de Lourdes, 619, Vila Galvão, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Venda",
+      "valor": 1520000,
+      "quartos": 5,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14048/media/sobrado-5-quartos-vila-galvao-guarulhos-sp--637ef864--small.jpg"
     },
     {
       "id": 14047,
@@ -157,6 +179,17 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14024/media/sobrado-3-quartos-parque-continental-i-guarulhos-sp--0f3f051f--small.jpg"
     },
     {
+      "id": 13173,
+      "codigo": "13173",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Avenida Bartholomeu de Carlos, 675 - 1807, Jardim Flor da Montanha, Guarulhos - SP",
+      "captador": "Daniela Fernandes",
+      "tipo_negociacao": "Locação",
+      "valor": 5000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13173/media/789cb33031363237303332303231b030b428cfc8354ccb3302003861058b--small.jpg"
+    },
+    {
       "id": 7490,
       "codigo": "7490",
       "titulo_tipo": "Sobrado",
@@ -212,7 +245,7 @@
     "valor": 1110,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13366/media/789c33363435b530303332303231b030ccb1484d4dcfc8b4000038ae05ac--small.jpg",
-    "buscas": 14
+    "buscas": 18
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Apartamento",
@@ -226,6 +259,6 @@
     "bairro": "Cocaia",
     "valor_medio": 1110,
     "quantidade_imoveis": 1,
-    "buscas": 14
+    "buscas": 18
   }
 }
