@@ -1,0 +1,97 @@
+====================================================================
+  PAINEL DA TV NA NUVEM - Willians Meda Imobiliaria
+  Um link que funciona sozinho, sem nenhum PC ligado
+====================================================================
+
+COMO FUNCIONA
+--------------------------------------------------
+- O GitHub (gratuito) roda o script sozinho todo dia, as 8h e as 13h
+  (horario de Brasilia), busca os imoveis no CRM e atualiza o painel.
+- O painel fica publicado num link fixo. A TV so abre o link.
+- Nenhum PC precisa ficar ligado, e nao existe mais .bat para abrir.
+
+
+ANTES DE COMECAR - IMPORTANTE (quem vai ser o "dono")
+--------------------------------------------------
+Crie a conta do GitHub com um E-MAIL DA EMPRESA (nao o pessoal de
+quem esta saindo), e anote o login e a senha num lugar que a
+empresa tenha acesso. Quem for assumir depois precisa conseguir
+entrar nessa conta.
+
+
+PASSO A PASSO (uma vez so, uns 15 minutos)
+--------------------------------------------------
+1. Crie a conta em github.com (botao "Sign up") e confirme o e-mail.
+
+2. Crie o repositorio: botao "+" no canto superior direito >
+   "New repository". Nome sugerido: painel-tv
+   Marque "Public" e clique em "Create repository".
+
+3. Envie os arquivos: na pagina do repositorio, clique em
+   "uploading an existing file". Abra a pasta deste projeto no
+   computador, selecione TUDO (Ctrl+A) e arraste para a pagina.
+   Aguarde terminar e clique em "Commit changes".
+   Confira se aparecem no repositorio: index.html, sync_diario.py,
+   requirements.txt, a pasta fotos_corretores e a pasta .github
+   (dentro dela: workflows / atualizar-painel.yml).
+   Se a pasta .github NAO aparecer, arraste ela sozinha.
+
+4. Coloque as credenciais do CRM (ficam escondidas, ninguem ve):
+   Settings > Secrets and variables > Actions > "New repository secret"
+   Crie DOIS segredos:
+       Nome: ROBUST_NICKNAME   Valor: williansmeda
+       Nome: ROBUST_API_KEY    Valor: (a sua API Key)
+
+5. Ligue a publicacao do site:
+   Settings > Pages > em "Source" escolha "GitHub Actions".
+
+6. Rode a primeira atualizacao:
+   aba "Actions" > "Atualizar painel" > "Run workflow" > "Run workflow".
+   Espere 1-2 minutos ate aparecer um check verde.
+
+7. Pegue o link: Settings > Pages. O endereco e parecido com
+       https://NOME-DA-CONTA.github.io/painel-tv/
+   Abra no navegador do PC para conferir e depois no navegador da TV.
+   Na TV, salve nos favoritos.
+
+
+FOTOS DOS CORRETORES
+--------------------------------------------------
+Envie as fotos para a pasta "fotos_corretores" do repositorio
+(Add file > Upload files), com o nome completo do captador, igual
+aparece no painel. Exemplo: Daniela Fernandes.png
+Sem foto, o painel mostra um circulo com as iniciais.
+A proxima atualizacao (ou "Run workflow") ja publica as fotos novas.
+
+
+PARA A EMPRESA NAO FICAR DEPENDENDO DE UMA PESSOA SO
+--------------------------------------------------
+- Em Settings > Collaborators, adicione mais uma pessoa da empresa.
+- O GitHub avisa por e-mail se uma atualizacao falhar. Use um e-mail
+  que alguem da empresa realmente leia.
+- Se a API Key do CRM for trocada um dia: Settings > Secrets and
+  variables > Actions > ROBUST_API_KEY > atualizar o valor.
+
+
+ATENCAO - PRIVACIDADE
+--------------------------------------------------
+Como o repositorio e publico (necessario para ser gratuito), quem
+tiver o link consegue ver o painel, os dados dos imoveis exibidos,
+os nomes dos captadores e as fotos dos corretores. A API Key NAO
+fica exposta (ela fica nos "Secrets"). Os dados dos imoveis ja sao
+publicos no site da imobiliaria.
+
+
+SE ALGO DER ERRADO
+--------------------------------------------------
+- Painel mostra "Nao foi possivel carregar os dados": rode "Run
+  workflow" (passo 6) e veja se terminou com check verde.
+- Atualizacao com X vermelho: abra a execucao na aba Actions e clique
+  no passo vermelho para ver o erro (normalmente API Key errada ou
+  digitada com espaco sobrando).
+- O GitHub pode pausar agendamentos de repositorios publicos sem
+  nenhuma atividade por 60 dias. Como cada atualizacao grava o
+  imoveis.json, isso nao deveria acontecer, mas se os dados
+  parecerem parados: aba Actions > "Atualizar painel" > se aparecer
+  o botao "Enable workflow", clique nele e rode "Run workflow".
+- Os horarios do agendamento podem atrasar alguns minutos.

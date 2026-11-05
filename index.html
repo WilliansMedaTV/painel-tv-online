@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Willians Meda Imobiliária — Lançamentos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  /* ------------------------------------------------------------
+     CSS ESCRITO A MAO (sem Tailwind / sem "var()") de proposito.
+     O navegador de Smart TV (LG webOS) trava e quebra o layout
+     quando usa o compilador de estilos do Tailwind em tempo real,
+     entao aqui tudo e CSS simples e estatico, o mais compativel
+     possivel com navegadores mais antigos.
+     ------------------------------------------------------------ */
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background-color: #0a0a0b;
+    color: #f5f4f0;
+    font-family: 'Inter', Arial, sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .font-display { font-family: 'Fraunces', Georgia, serif; }
+  .font-mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+
+  /* ---------- Cabecalho ---------- */
+  .header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 48px;
+  }
+  .header-left { display: flex; align-items: center; }
+  .header-bar {
+    width: 8px;
+    height: 34px;
+    background-color: #fbbf24;
+    margin-right: 16px;
+  }
+  .brand-title { font-size: 26px; letter-spacing: 0.02em; color: #f5f4f0; }
+  .brand-sub { font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #fbbf24; margin-top: 4px; }
+  .header-right { text-align: right; }
+  .clock { font-size: 40px; font-weight: 600; color: #f5f4f0; }
+  .date-text { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #9a978f; margin-top: 4px; }
+
+  /* ---------- Palco ---------- */
+  .stage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 130px 48px 40px 48px;
+  }
+
+  .empty-state {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .empty-state.hidden { display: none; }
+  .empty-title { font-size: 30px; color: #9a978f; }
+  .empty-detail { font-size: 12px; letter-spacing: 0.25em; text-transform: uppercase; color: #92702a; margin-top: 14px; }
+
+  .slide {
+    position: absolute;
+    top: 130px; left: 48px; right: 48px; bottom: 40px;
+    display: flex;
+    align-items: stretch;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+  }
+  .slide.active { opacity: 1; }
+
+  .slide-photo {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #131316;
+  }
+  .slide-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .photo-shade {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(90deg, rgba(10,10,11,0) 60%, rgba(10,10,11,1) 100%);
+  }
+  .code-tag {
+    position: absolute;
+    top: 24px; left: 24px;
+    font-size: 13px;
+    padding: 7px 14px;
+    background-color: rgba(10,10,11,0.75);
+    color: #fbbf24;
+    border: 1px solid #92702a;
+    letter-spacing: 0.05em;
+  }
+  .novo-tag {
+    position: absolute;
+    top: 24px; right: 24px;
+    font-size: 13px;
+    padding: 7px 14px;
+    background-color: #fbbf24;
+    color: #1a1305;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .divider {
+    width: 2px;
+    align-self: stretch;
+    margin: 40px 0;
+    background: linear-gradient(180deg, transparent, #fbbf24 15%, #fbbf24 85%, transparent);
+  }
+
+  .slide-info {
+    width: 50%;
+    height: 100%;
+    background-color: #131316;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px 0 56px;
+  }
+  .business-label {
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #fbbf24;
+    margin-bottom: 16px;
+  }
+  .property-title {
+    font-size: 46px;
+    line-height: 1.15;
+    color: #f5f4f0;
+    margin-bottom: 18px;
+  }
+  .property-address {
+    font-size: 20px;
+    color: #9a978f;
+    margin-bottom: 4px;
+  }
+  .rooms-row {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .rooms-line { width: 32px; height: 1px; background-color: #92702a; margin-right: 10px; }
+  .rooms-text { font-size: 15px; letter-spacing: 0.15em; text-transform: uppercase; color: #9a978f; }
+
+  .price {
+    font-size: 54px;
+    font-weight: 600;
+    color: #fbbf24;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .footer-row {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    padding-top: 22px;
+    border-top: 1px solid #2a2a30;
+  }
+  .footer-dot { width: 6px; height: 6px; border-radius: 50%; background-color: #fbbf24; margin-right: 12px; }
+  .footer-text { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: #9a978f; }
+  .footer-name { color: #f5f4f0; }
+
+  .captador-foto {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 14px;
+    border: 1px solid #92702a;
+    background-color: #1a1a1e;
+    flex-shrink: 0;
+  }
+  .captador-fallback {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 14px;
+    border: 1px solid #92702a;
+    background-color: #1a1a1e;
+    color: #fbbf24;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  /* ---------- Barra de progresso ---------- */
+  .progress-track {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    height: 4px;
+    background-color: #2a2a30;
+    z-index: 20;
+  }
+  .progress-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #fbbf24;
+  }
+  .progress-fill.animando {
+    animation: crescerbarra 10s linear forwards;
+  }
+  @keyframes crescerbarra {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+
+  /* ---------- Slide: Imovel Campeao ---------- */
+  .slide-campeao .slide-photo,
+  .slide-campeao .slide-info {
+    border: 2px solid #fbbf24;
+  }
+  .slide-campeao .slide-photo { border-right: none; }
+  .slide-campeao .slide-info { border-left: none; }
+
+  .faixa-campeao {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    z-index: 5;
+    background-color: #fbbf24;
+    color: #1a1305;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .foto-generica-campeao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 30% 30%, #1f1a0d, #0a0a0b 70%);
+  }
+  .foto-generica-campeao .troféu { font-size: 110px; }
+  .buscas-tag {
+    position: absolute;
+    bottom: 24px; left: 24px;
+    font-size: 13px;
+    padding: 7px 14px;
+    background-color: rgba(10,10,11,0.75);
+    color: #fbbf24;
+    border: 1px solid #92702a;
+    letter-spacing: 0.05em;
+  }
+
+  /* ---------- Slide: Tipologia mais buscada ---------- */
+  .slide-tipologia {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #131316;
+    border: 2px solid #fbbf24;
+    padding: 0 60px;
+  }
+  .tipologia-kicker {
+    font-size: 14px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: #fbbf24;
+    margin-bottom: 28px;
+  }
+  .tipologia-tipo {
+    font-size: 70px;
+    color: #f5f4f0;
+    margin-bottom: 20px;
+  }
+  .tipologia-bairro {
+    font-size: 28px;
+    color: #9a978f;
+    margin-bottom: 44px;
+  }
+  .tipologia-linha-dados {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+  }
+  .tipologia-dado { text-align: center; }
+  .tipologia-dado-valor {
+    font-size: 44px;
+    font-weight: 600;
+    color: #fbbf24;
+  }
+  .tipologia-dado-rotulo {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #9a978f;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-left">
+      <div class="header-bar"></div>
+      <div>
+        <p class="brand-title font-display">Willians Meda</p>
+        <p class="brand-sub font-mono">Lançamentos da semana</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <p id="relogio" class="clock font-mono">--:--:--</p>
+      <p id="dataAtual" class="date-text font-mono">--</p>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div id="estadoVazio" class="empty-state hidden">
+      <p id="estadoVazioTitulo" class="empty-title font-display">Carregando imóveis...</p>
+      <p id="estadoVazioDetalhe" class="empty-detail font-mono"></p>
+    </div>
+
+    <div id="slideAtual" class="slide"></div>
+  </main>
+
+  <div class="progress-track">
+    <div id="barraProgresso" class="progress-fill"></div>
+  </div>
+
+<script>
+  var CAMINHO_JSON = 'imoveis.json';
+  var DURACAO_SLIDE_MS = 10000;
+  var DURACAO_FADE_MS = 500;
+  var INTERVALO_ATUALIZACAO_DADOS_MS = 5 * 60 * 1000; // recarrega dados a cada 5 min
+
+  var slidesLogicos = [];
+  var indiceAtual = 0;
+  var timerSlide = null;
+  var primeiraCarga = true;
+
+  // ---------- Relogio ----------
+  function doisDigitos(n) {
+    n = String(n);
+    return n.length < 2 ? '0' + n : n;
+  }
+
+  function atualizarRelogio() {
+    var agora = new Date();
+    var hh = doisDigitos(agora.getHours());
+    var mm = doisDigitos(agora.getMinutes());
+    var ss = doisDigitos(agora.getSeconds());
+    document.getElementById('relogio').textContent = hh + ':' + mm + ':' + ss;
+
+    var dias = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
+    var meses = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+    document.getElementById('dataAtual').textContent =
+      dias[agora.getDay()] + ', ' + agora.getDate() + ' de ' + meses[agora.getMonth()];
+  }
+  setInterval(atualizarRelogio, 1000);
+  atualizarRelogio();
+
+  // ---------- Formatacao ----------
+  function formatarMoeda(valor) {
+    if (valor === null || valor === undefined || isNaN(valor)) return 'Consulte-nos';
+
+    var inteiro = Math.round(valor).toString();
+    var comSeparadores = '';
+    for (var i = 0; i < inteiro.length; i++) {
+      var posicaoDaDireita = inteiro.length - i;
+      comSeparadores += inteiro[i];
+      if (posicaoDaDireita > 1 && posicaoDaDireita % 3 === 1) {
+        comSeparadores += '.';
+      }
+    }
+    return 'R$ ' + comSeparadores;
+  }
+
+  function rotuloNegocio(tipo) {
+    if (!tipo) return 'Consulte';
+    var t = tipo.toLowerCase();
+    if (t.indexOf('venda') !== -1) return 'Venda';
+    if (t.indexOf('loca') !== -1) return 'Locação';
+    if (t.indexOf('tempor') !== -1) return 'Temporada';
+    return tipo;
+  }
+
+  function escaparTexto(texto) {
+    var div = document.createElement('div');
+    div.textContent = texto === undefined || texto === null ? '' : String(texto);
+    return div.innerHTML;
+  }
+
+  function obterIniciais(nome) {
+    if (!nome) return '?';
+    var partes = nome.trim().split(/\s+/);
+    var iniciais = partes[0] ? partes[0].charAt(0) : '';
+    if (partes.length > 1) iniciais += partes[partes.length - 1].charAt(0);
+    return iniciais.toUpperCase();
+  }
+
+  // Quando a foto do corretor falha ao carregar: na 1a falha, tenta a
+  // versao .png. Na 2a falha, esconde a foto e mostra um circulo com
+  // as iniciais do nome (nunca fica quebrado visualmente).
+  function erroFotoCaptador(img) {
+    var tentativa = img.getAttribute('data-tentativa') || '0';
+    if (tentativa === '0') {
+      img.setAttribute('data-tentativa', '1');
+      img.src = img.getAttribute('data-png');
+    } else {
+      img.style.display = 'none';
+      var fallback = document.getElementById('fotoCaptadorFallback');
+      if (fallback) fallback.style.display = 'flex';
+    }
+  }
+
+  // ---------- Construcao do card (um por vez) ----------
+  function construirCardHTML(imovel) {
+    var negocio = rotuloNegocio(imovel.tipo_negociacao);
+    var quartosTxt = imovel.quartos
+      ? imovel.quartos + ' ' + (imovel.quartos === 1 ? 'quarto' : 'quartos')
+      : null;
+
+    var linhaQuartos = quartosTxt
+      ? '<div class="rooms-row"><div class="rooms-line"></div><p class="rooms-text font-mono">' + escaparTexto(quartosTxt) + '</p></div>'
+      : '<div style="margin-top:24px;margin-bottom:24px;"></div>';
+
+    var nomeCaptador = imovel.captador || 'Não informado';
+    var nomeArquivo = encodeURIComponent(nomeCaptador);
+    var caminhoJpg = 'fotos_corretores/' + nomeArquivo + '.jpg';
+    var caminhoPng = 'fotos_corretores/' + nomeArquivo + '.png';
+    var iniciais = obterIniciais(nomeCaptador);
+
+    return (
+      '<div class="slide-photo">' +
+        '<img src="' + escaparTexto(imovel.foto_url) + '" alt="' + escaparTexto(imovel.titulo_tipo) + '">' +
+        '<div class="photo-shade"></div>' +
+        '<div class="code-tag font-mono">Cód. ' + escaparTexto(imovel.codigo) + '</div>' +
+        '<div class="novo-tag font-mono">Novo</div>' +
+      '</div>' +
+      '<div class="divider"></div>' +
+      '<div class="slide-info">' +
+        '<p class="business-label font-mono">' + escaparTexto(negocio) + '</p>' +
+        '<h1 class="property-title font-display">' + escaparTexto(imovel.titulo_tipo) + '</h1>' +
+        '<p class="property-address">' + escaparTexto(imovel.endereco) + '</p>' +
+        linhaQuartos +
+        '<p class="price font-display">' + escaparTexto(formatarMoeda(imovel.valor)) + '</p>' +
+        '<div class="footer-row">' +
+          '<img class="captador-foto" data-tentativa="0" data-png="' + caminhoPng + '" ' +
+               'src="' + caminhoJpg + '" onerror="erroFotoCaptador(this)">' +
+          '<div id="fotoCaptadorFallback" class="captador-fallback font-mono">' + escaparTexto(iniciais) + '</div>' +
+          '<p class="footer-text font-mono">Captador: <span class="footer-name">' + escaparTexto(nomeCaptador) + '</span></p>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  // ---------- Slide: Imovel Campeao (Venda ou Locacao) ----------
+  function construirCardCampeaoHTML(campeao) {
+    var negocio = rotuloNegocio(campeao.tipo_negociacao);
+    var quartosTxt = campeao.quartos
+      ? campeao.quartos + ' ' + (campeao.quartos === 1 ? 'quarto' : 'quartos')
+      : null;
+
+    var linhaQuartos = quartosTxt
+      ? '<div class="rooms-row"><div class="rooms-line"></div><p class="rooms-text font-mono">' + escaparTexto(quartosTxt) + '</p></div>'
+      : '<div style="margin-top:24px;margin-bottom:24px;"></div>';
+
+    var nomeCaptador = campeao.captador || 'Não informado';
+    var nomeArquivo = encodeURIComponent(nomeCaptador);
+    var caminhoJpg = 'fotos_corretores/' + nomeArquivo + '.jpg';
+    var caminhoPng = 'fotos_corretores/' + nomeArquivo + '.png';
+    var iniciais = obterIniciais(nomeCaptador);
+
+    var buscasTexto = campeao.buscas
+      ? campeao.buscas + (campeao.buscas === 1 ? ' busca' : ' buscas') + ' no mês'
+      : '';
+
+    var conteudoFoto = campeao.foto_url
+      ? '<img src="' + escaparTexto(campeao.foto_url) + '" alt="' + escaparTexto(campeao.titulo_tipo) + '">' +
+        '<div class="photo-shade"></div>'
+      : '<div class="foto-generica-campeao"><span class="troféu">🏆</span></div>';
+
+    return (
+      '<div class="slide-photo">' +
+        '<div class="faixa-campeao font-mono">🏆 Mais buscado em ' + escaparTexto(negocio) + '</div>' +
+        conteudoFoto +
+        '<div class="code-tag font-mono" style="top:60px;">Cód. ' + escaparTexto(campeao.codigo) + '</div>' +
+        (buscasTexto ? '<div class="buscas-tag font-mono">' + escaparTexto(buscasTexto) + '</div>' : '') +
+      '</div>' +
+      '<div class="divider"></div>' +
+      '<div class="slide-info">' +
+        '<p class="business-label font-mono">' + escaparTexto(negocio) + '</p>' +
+        '<h1 class="property-title font-display">' + escaparTexto(campeao.titulo_tipo) + '</h1>' +
+        '<p class="property-address">' + escaparTexto(campeao.endereco) + '</p>' +
+        linhaQuartos +
+        '<p class="price font-display">' + escaparTexto(formatarMoeda(campeao.valor)) + '</p>' +
+        '<div class="footer-row">' +
+          '<img class="captador-foto" data-tentativa="0" data-png="' + caminhoPng + '" ' +
+               'src="' + caminhoJpg + '" onerror="erroFotoCaptador(this)">' +
+          '<div id="fotoCaptadorFallback" class="captador-fallback font-mono">' + escaparTexto(iniciais) + '</div>' +
+          '<p class="footer-text font-mono">Captador: <span class="footer-name">' + escaparTexto(nomeCaptador) + '</span></p>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  // ---------- Slide: Tipologia mais buscada (Venda ou Locacao) ----------
+  function construirCardTipologiaHTML(tipologia, rotuloNegociacao) {
+    var valorTexto = tipologia.valor_medio ? formatarMoeda(tipologia.valor_medio) : 'Consulte-nos';
+    return (
+      '<p class="tipologia-kicker font-mono">Tipologia mais buscada — ' + escaparTexto(rotuloNegociacao) + ' (mês atual)</p>' +
+      '<h1 class="tipologia-tipo font-display">' + escaparTexto(tipologia.tipo) + '</h1>' +
+      '<p class="tipologia-bairro">' + escaparTexto(tipologia.bairro) + '</p>' +
+      '<div class="tipologia-linha-dados">' +
+        '<div class="tipologia-dado">' +
+          '<p class="tipologia-dado-valor font-display">' + escaparTexto(valorTexto) + '</p>' +
+          '<p class="tipologia-dado-rotulo font-mono">Valor médio</p>' +
+        '</div>' +
+        '<div class="tipologia-dado">' +
+          '<p class="tipologia-dado-valor font-display">' + escaparTexto(tipologia.buscas) + '</p>' +
+          '<p class="tipologia-dado-rotulo font-mono">Buscas no período</p>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  // ---------- Monta a lista combinada de slides ----------
+  // Intercala o bloco de indicadores (tipologias + campeoes + rankings)
+  // a cada 6 slides de imoveis, conforme solicitado.
+  var SLIDES_IMOVEIS_ENTRE_BLOCOS = 6;
+
+  function montarBlocoEspecial(dados) {
+    var bloco = [];
+    if (dados.tipologia_mais_buscada_venda) {
+      bloco.push({ tipo: 'tipologia_venda', dados: dados.tipologia_mais_buscada_venda });
+    }
+    if (dados.tipologia_mais_buscada_locacao) {
+      bloco.push({ tipo: 'tipologia_locacao', dados: dados.tipologia_mais_buscada_locacao });
+    }
+    if (dados.campeao_venda) {
+      bloco.push({ tipo: 'campeao_venda', dados: dados.campeao_venda });
+    }
+    if (dados.campeao_locacao) {
+      bloco.push({ tipo: 'campeao_locacao', dados: dados.campeao_locacao });
+    }
+    return bloco;
+  }
+
+  function montarSlidesLogicos(dados) {
+    var especiais = montarBlocoEspecial(dados);
+    var slidesImoveis = (dados.imoveis || []).map(function (im) {
+      return { tipo: 'imovel', dados: im };
+    });
+
+    if (!especiais.length) return slidesImoveis;
+    if (!slidesImoveis.length) return especiais;
+
+    var resultado = [];
+    for (var i = 0; i < slidesImoveis.length; i += SLIDES_IMOVEIS_ENTRE_BLOCOS) {
+      var pedaco = slidesImoveis.slice(i, i + SLIDES_IMOVEIS_ENTRE_BLOCOS);
+      resultado = resultado.concat(pedaco);
+      resultado = resultado.concat(especiais);
+    }
+    return resultado;
+  }
+
+  function construirSlideHTML(slideLogico) {
+    switch (slideLogico.tipo) {
+      case 'campeao_venda':
+      case 'campeao_locacao':
+        return construirCardCampeaoHTML(slideLogico.dados);
+      case 'tipologia_venda':
+        return construirCardTipologiaHTML(slideLogico.dados, 'Venda');
+      case 'tipologia_locacao':
+        return construirCardTipologiaHTML(slideLogico.dados, 'Locação');
+      default:
+        return construirCardHTML(slideLogico.dados);
+    }
+  }
+
+  function classeExtraSlide(slideLogico) {
+    if (slideLogico.tipo === 'campeao_venda' || slideLogico.tipo === 'campeao_locacao') return ' slide-campeao';
+    if (slideLogico.tipo === 'tipologia_venda' || slideLogico.tipo === 'tipologia_locacao') return ' slide-tipologia';
+    return '';
+  }
+
+
+  function mostrarMensagem(titulo, detalhe) {
+    document.getElementById('slideAtual').classList.remove('active');
+    document.getElementById('slideAtual').innerHTML = '';
+    document.getElementById('estadoVazioTitulo').textContent = titulo;
+    document.getElementById('estadoVazioDetalhe').textContent = detalhe || '';
+    document.getElementById('estadoVazio').classList.remove('hidden');
+    pararBarraProgresso();
+  }
+
+  function esconderMensagem() {
+    document.getElementById('estadoVazio').classList.add('hidden');
+  }
+
+  // ---------- Barra de progresso ----------
+  function reiniciarBarraProgresso() {
+    var barra = document.getElementById('barraProgresso');
+    barra.classList.remove('animando');
+    void barra.offsetWidth; // forca reflow para reiniciar a animacao
+    barra.classList.add('animando');
+  }
+
+  function pararBarraProgresso() {
+    var barra = document.getElementById('barraProgresso');
+    barra.classList.remove('animando');
+    barra.style.width = '0%';
+  }
+
+  // ---------- Troca de slide (um elemento no DOM por vez) ----------
+  function exibirSlideAtual() {
+    var el = document.getElementById('slideAtual');
+
+    if (!slidesLogicos.length) {
+      mostrarMensagem('Nenhum lançamento nos últimos 7 dias', 'Painel atualizado automaticamente');
+      return;
+    }
+    esconderMensagem();
+
+    el.classList.remove('active');
+    setTimeout(function () {
+      var slideLogico = slidesLogicos[indiceAtual];
+      el.innerHTML = construirSlideHTML(slideLogico);
+      el.className = 'slide' + classeExtraSlide(slideLogico);
+      void el.offsetWidth;
+      el.classList.add('active');
+      reiniciarBarraProgresso();
+    }, DURACAO_FADE_MS);
+  }
+
+  function avancarSlide() {
+    if (!slidesLogicos.length) return;
+    indiceAtual = (indiceAtual + 1) % slidesLogicos.length;
+    exibirSlideAtual();
+  }
+
+  function iniciarCarrossel() {
+    if (timerSlide) clearInterval(timerSlide);
+    if (!slidesLogicos.length) {
+      mostrarMensagem('Nenhum lançamento nos últimos 7 dias', 'Painel atualizado automaticamente');
+      return;
+    }
+    indiceAtual = 0;
+    exibirSlideAtual();
+    timerSlide = setInterval(avancarSlide, DURACAO_SLIDE_MS);
+  }
+
+  // ---------- Carregamento dos dados ----------
+  function carregarImoveis() {
+    var xhr = new XMLHttpRequest();
+    var url = CAMINHO_JSON + '?t=' + Date.now();
+    xhr.open('GET', url, true);
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState !== 4) return;
+
+      if (xhr.status !== 200) {
+        console.error('Erro ao buscar imoveis.json, status: ' + xhr.status);
+        if (primeiraCarga) {
+          mostrarMensagem('Não foi possível carregar os dados', 'Erro HTTP: ' + xhr.status);
+        }
+        return;
+      }
+
+      try {
+        var dados = JSON.parse(xhr.responseText);
+        var novaLista = montarSlidesLogicos(dados);
+        var mudou = JSON.stringify(novaLista) !== JSON.stringify(slidesLogicos);
+        if (mudou) {
+          slidesLogicos = novaLista;
+          iniciarCarrossel();
+        }
+        primeiraCarga = false;
+      } catch (erro) {
+        console.error('Erro ao interpretar imoveis.json:', erro);
+        if (primeiraCarga) {
+          mostrarMensagem('Não foi possível carregar os dados', 'Erro ao ler o arquivo: ' + erro.message);
+        }
+      }
+    };
+    xhr.onerror = function () {
+      console.error('Erro de rede ao buscar imoveis.json');
+      if (primeiraCarga) {
+        mostrarMensagem('Não foi possível carregar os dados', 'Erro de conexão com o servidor');
+      }
+    };
+    xhr.send();
+  }
+
+  carregarImoveis();
+  setInterval(carregarImoveis, INTERVALO_ATUALIZACAO_DADOS_MS);
+</script>
+
+</body>
+</html>

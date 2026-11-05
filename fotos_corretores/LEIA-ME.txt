@@ -1,0 +1,42 @@
+====================================================================
+  FOTOS DOS CORRETORES / CAPTADORES
+====================================================================
+
+Coloque aqui as fotos dos corretores. O painel vai procurar
+automaticamente a foto certa com base no NOME EXATO do captador,
+do jeito que ele aparece cadastrado no CRM Robust.
+
+COMO NOMEAR O ARQUIVO
+----------------------
+Nome do arquivo = nome completo do captador, exatamente como
+aparece no CRM (mesmos acentos, mesma grafia), + ".jpg"
+
+Exemplos:
+  Daniela Fernandes.jpg
+  Wagner Xavier.jpg
+  José Almeida.jpg
+
+Se não tiver a foto em .jpg, o painel tambem tenta ".png"
+automaticamente:
+  Daniela Fernandes.png
+
+SE NAO TIVER A FOTO DE ALGUEM
+-------------------------------
+Sem problema - o painel mostra um circulo dourado com as
+iniciais do nome (ex: "DF" para Daniela Fernandes) no lugar da
+foto. Nada quebra visualmente.
+
+DICAS PARA A FOTO
+-------------------
+- Prefira uma foto quadrada (ex: 400x400 pixels), com o rosto
+  centralizado - o painel corta automaticamente para caber no
+  circulo.
+- Fotos muito grandes (varios MB) podem deixar o carregamento
+  mais lento. Se possivel, comprima a foto antes (varios sites
+  gratuitos como o "squoosh.app" fazem isso facilmente).
+
+NAO PRECISA MEXER NO PYTHON NEM NO CRM
+-----------------------------------------
+Essa pasta e so lida pelo navegador da Smart TV, na hora de
+montar o card. Voce so precisa adicionar/trocar as fotos aqui
+quando quiser.
