@@ -1,7 +1,18 @@
 {
-  "gerado_em": "2026-11-06T14:45:13",
-  "total": 21,
+  "gerado_em": "2026-11-06T18:10:25",
+  "total": 22,
   "imoveis": [
+    {
+      "id": 14055,
+      "codigo": "14055",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Padre Celestino, 579, Centro, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Venda",
+      "valor": 310000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14055/media/apartamento-2-quartos-centro-guarulhos-sp--1cfa7f53--small.jpg"
+    },
     {
       "id": 14054,
       "codigo": "14054",
@@ -33,7 +44,7 @@
       "tipo_negociacao": "Locação",
       "valor": 5500,
       "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14052/media/sala-jardim-bom-clima-guarulhos-sp--706de70b--small.jpg"
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14052/media/sala-jardim-bom-clima-guarulhos-sp--705af723--small.jpg"
     },
     {
       "id": 14051,
