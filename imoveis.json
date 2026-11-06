@@ -1,7 +1,18 @@
 {
-  "gerado_em": "2026-11-05T18:42:18",
-  "total": 20,
+  "gerado_em": "2026-11-06T14:45:13",
+  "total": 21,
   "imoveis": [
+    {
+      "id": 14054,
+      "codigo": "14054",
+      "titulo_tipo": "Sobrado 3 quartos",
+      "endereco": "Rua Prefeito Rinaldo Poli, 130, Jardim City, Guarulhos - SP",
+      "captador": "Dario Azevedo",
+      "tipo_negociacao": "Venda",
+      "valor": 680000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14054/media/sobrado-3-quartos-jardim-city-guarulhos-sp--65557162--small.jpg"
+    },
     {
       "id": 14053,
       "codigo": "14053",
@@ -12,6 +23,28 @@
       "valor": 945000,
       "quartos": 2,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14053/media/apartamento-2-quartos-vila-augusta-guarulhos-sp--6bf4b3d6--small.jpg"
+    },
+    {
+      "id": 14052,
+      "codigo": "14052",
+      "titulo_tipo": "Sala",
+      "endereco": "Rua Mandaguari, 39, Jardim Bom Clima, Guarulhos - SP",
+      "captador": "Clayton Pereira",
+      "tipo_negociacao": "Locação",
+      "valor": 5500,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14052/media/sala-jardim-bom-clima-guarulhos-sp--706de70b--small.jpg"
+    },
+    {
+      "id": 14051,
+      "codigo": "14051",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Remanso, 79 - 112, Vila Nova Bonsucesso, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda",
+      "valor": 535000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14051/media/apartamento-2-quartos-vila-nova-bonsucesso-guarulhos-sp--6e868c1e--small.jpg"
     },
     {
       "id": 14050,
@@ -69,6 +102,17 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14046/media/area-vila-maria-de-lourdes-guarulhos-sp--4fd1e617--small.jpg"
     },
     {
+      "id": 14045,
+      "codigo": "14045",
+      "titulo_tipo": "Apartamento 3 quartos",
+      "endereco": "Av. do Oratório, 401 - 145, Vila Independência, São Paulo - SP",
+      "captador": "Denize Magalhães",
+      "tipo_negociacao": "Venda",
+      "valor": 1350000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14045/media/apartamento-3-quartos-vila-independencia-sao-paulo-sp--eb002dba--small.jpg"
+    },
+    {
       "id": 14044,
       "codigo": "14044",
       "titulo_tipo": "Salão",
@@ -113,28 +157,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14041/media/apartamento-3-quartos-jardim-vila-galvao-guarulhos-sp--a7adc4bc--small.jpg"
     },
     {
-      "id": 14040,
-      "codigo": "14040",
-      "titulo_tipo": "Casa 2 quartos",
-      "endereco": "Rua Almir Ribeiro, 49, Jardim São Roberto, Guarulhos - SP",
-      "captador": "Dalva Barros",
-      "tipo_negociacao": "Venda",
-      "valor": 425000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14040/media/casa-2-quartos-jardim-sao-roberto-guarulhos-sp--ceb16acb--small.jpg"
-    },
-    {
-      "id": 14039,
-      "codigo": "14039",
-      "titulo_tipo": "Apartamento 3 quartos",
-      "endereco": "Rua Augusta, 183 - Apto 163, Vila Augusta, Guarulhos - SP",
-      "captador": "Maria Vendramini",
-      "tipo_negociacao": "Venda",
-      "valor": 1150000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14039/media/apartamento-3-quartos-vila-augusta-guarulhos-sp--3d5d2809--small.jpg"
-    },
-    {
       "id": 14038,
       "codigo": "14038",
       "titulo_tipo": "Flat 1 quarto",
@@ -144,28 +166,6 @@
       "valor": 279000,
       "quartos": 1,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14038/media/flat-1-quarto-centro-guarulhos-sp--81d1f779--small.jpg"
-    },
-    {
-      "id": 14037,
-      "codigo": "14037",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Cabo João Teruel Fregoni, 124 - 53, Ponte Grande, Guarulhos - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda",
-      "valor": 370000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14037/media/apartamento-2-quartos-ponte-grande-guarulhos-sp--fbe50156--small.jpg"
-    },
-    {
-      "id": 14036,
-      "codigo": "14036",
-      "titulo_tipo": "Sobrado 2 quartos",
-      "endereco": "Rua Dario Luiz Setti, 126, Vila Santa Rita de Cássia, São Bernardo do Campo - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda",
-      "valor": 600000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14036/media/sobrado-2-quartos-vila-santa-rita-de-cassia-sao-bernardo-do-campo-sp--b120727c--small.jpg"
     },
     {
       "id": 14024,
@@ -199,6 +199,17 @@
       "valor": 7500,
       "quartos": null,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/7490/media/sobrado-jardim-santa-francisca-guarulhos-sp--20c1b70c--small.jpg"
+    },
+    {
+      "id": 6085,
+      "codigo": "6085",
+      "titulo_tipo": "Casa 3 quartos",
+      "endereco": "Rua Idioma Esperanto, 10 - -, Jardim Bela Vista, Guarulhos - SP",
+      "captador": "Dalva Barros",
+      "tipo_negociacao": "Venda,Locação",
+      "valor": null,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/6085/media/789c33313434323434333230323130334c4c2aca2b4ecbc9050039680615--small.jpg"
     },
     {
       "id": 2144,
@@ -245,13 +256,13 @@
     "valor": 1110,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13366/media/789c33363435b530303332303231b030ccb1484d4dcfc8b4000038ae05ac--small.jpg",
-    "buscas": 18
+    "buscas": 20
   },
   "tipologia_mais_buscada_venda": {
-    "tipo": "Apartamento",
-    "bairro": "Jardim Sao Judas Tadeu",
-    "valor_medio": 320000,
-    "quantidade_imoveis": 1,
+    "tipo": "Sobrado",
+    "bairro": "Jardim Maia",
+    "valor_medio": 1120000,
+    "quantidade_imoveis": 2,
     "buscas": 6
   },
   "tipologia_mais_buscada_locacao": {
@@ -259,6 +270,6 @@
     "bairro": "Cocaia",
     "valor_medio": 1110,
     "quantidade_imoveis": 1,
-    "buscas": 18
+    "buscas": 20
   }
 }
