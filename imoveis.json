@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-06T18:10:25",
-  "total": 22,
+  "gerado_em": "2026-11-07T13:40:51",
+  "total": 15,
   "imoveis": [
     {
       "id": 14055,
@@ -124,61 +124,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14045/media/apartamento-3-quartos-vila-independencia-sao-paulo-sp--eb002dba--small.jpg"
     },
     {
-      "id": 14044,
-      "codigo": "14044",
-      "titulo_tipo": "Salão",
-      "endereco": "Rua Cachoeira, 1482, Jardim Rosa de Franca, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Locação",
-      "valor": 7500,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14044/media/salao-jardim-rosa-de-franca-guarulhos-sp--e807a2eb--small.jpg"
-    },
-    {
-      "id": 14043,
-      "codigo": "14043",
-      "titulo_tipo": "Salão",
-      "endereco": "Rua São Pedro da Aldeia, 93 - salão 2, Jardim Moreira, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Locação",
-      "valor": 2500,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14043/media/salao-jardim-moreira-guarulhos-sp--c101d3ba--small.jpg"
-    },
-    {
-      "id": 14042,
-      "codigo": "14042",
-      "titulo_tipo": "Salão",
-      "endereco": "Rua São Pedro da Aldeia, 93, Jardim Moreira, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Locação",
-      "valor": 3000,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14042/media/salao-jardim-moreira-guarulhos-sp--d2073dbf--small.jpg"
-    },
-    {
-      "id": 14041,
-      "codigo": "14041",
-      "titulo_tipo": "Apartamento 3 quartos",
-      "endereco": "Rua Hélio Manzoni, 46 - Apto 115, Jardim Vila Galvao, Guarulhos - SP",
-      "captador": "Maria Vendramini",
-      "tipo_negociacao": "Venda",
-      "valor": 800000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14041/media/apartamento-3-quartos-jardim-vila-galvao-guarulhos-sp--a7adc4bc--small.jpg"
-    },
-    {
-      "id": 14038,
-      "codigo": "14038",
-      "titulo_tipo": "Flat 1 quarto",
-      "endereco": "Rua Barão de Mauá, 450 - 705, Centro, Guarulhos - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda",
-      "valor": 279000,
-      "quartos": 1,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14038/media/flat-1-quarto-centro-guarulhos-sp--81d1f779--small.jpg"
-    },
-    {
       "id": 14024,
       "codigo": "14024",
       "titulo_tipo": "Sobrado 3 quartos",
@@ -201,17 +146,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13173/media/789cb33031363237303332303231b030b428cfc8354ccb3302003861058b--small.jpg"
     },
     {
-      "id": 7490,
-      "codigo": "7490",
-      "titulo_tipo": "Sobrado",
-      "endereco": "Rua Doutor Epitácio Pessoa, 37 - -, Jardim Santa Francisca, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Locação",
-      "valor": 7500,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/7490/media/sobrado-jardim-santa-francisca-guarulhos-sp--20c1b70c--small.jpg"
-    },
-    {
       "id": 6085,
       "codigo": "6085",
       "titulo_tipo": "Casa 3 quartos",
@@ -232,17 +166,6 @@
       "valor": 13500000,
       "quartos": null,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/2144/media/lote--terreno-lambari-guararema-sp--425f0607--small.jpg"
-    },
-    {
-      "id": 848,
-      "codigo": "848",
-      "titulo_tipo": "Loja",
-      "endereco": "Avenida Emílio Ribas, 3293 - Loja, Jardim Vila Galvao, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Locação",
-      "valor": 1200,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/848/media/loja-jardim-vila-galvao-guarulhos-sp--930e887a--small.jpg"
     }
   ],
   "campeao_venda": {
