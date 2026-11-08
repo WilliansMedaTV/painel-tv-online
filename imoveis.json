@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-07T16:45:06",
+  "gerado_em": "2026-11-08T13:50:20",
   "total": 15,
   "imoveis": [
     {
@@ -169,15 +169,15 @@
     }
   ],
   "campeao_venda": {
-    "id": 9637,
-    "codigo": "9637",
-    "titulo_tipo": "Apartamento 2 quartos",
-    "endereco": "Avenida da Paz, 209 - Apartamento 14, Jardim Sao Judas Tadeu, Guarulhos - SP",
-    "captador": "Andrea Marques",
+    "id": 366,
+    "codigo": "366",
+    "titulo_tipo": "Sobrado 3 quartos",
+    "endereco": "Rua Belo Jardim, 473, Jardim Santa Clara, Guarulhos - SP",
+    "captador": "Dario Azevedo",
     "tipo_negociacao": "Venda",
-    "valor": 320000,
-    "quartos": 2,
-    "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/9637/media/apartamento-2-quartos-jardim-sao-judas-tadeu-guarulhos-sp--35e91dde--small.jpg",
+    "valor": 650000,
+    "quartos": 3,
+    "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/366/media/789c33363637313630333230323130352c2c3535cc33362f0700377c0564--small.jpg",
     "buscas": 6
   },
   "campeao_locacao": {
@@ -190,13 +190,13 @@
     "valor": 1110,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13366/media/789c33363435b530303332303231b030ccb1484d4dcfc8b4000038ae05ac--small.jpg",
-    "buscas": 20
+    "buscas": 23
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Sobrado",
-    "bairro": "Jardim Maia",
-    "valor_medio": 1120000,
-    "quantidade_imoveis": 2,
+    "bairro": "Jardim Santa Clara",
+    "valor_medio": 650000,
+    "quantidade_imoveis": 1,
     "buscas": 6
   },
   "tipologia_mais_buscada_locacao": {
@@ -204,6 +204,6 @@
     "bairro": "Cocaia",
     "valor_medio": 1110,
     "quantidade_imoveis": 1,
-    "buscas": 20
+    "buscas": 23
   }
 }
