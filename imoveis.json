@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-08T17:03:52",
+  "gerado_em": "2026-11-09T18:12:18",
   "total": 15,
   "imoveis": [
     {
@@ -146,15 +146,15 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13173/media/789cb33031363237303332303231b030b428cfc8354ccb3302003861058b--small.jpg"
     },
     {
-      "id": 6085,
-      "codigo": "6085",
+      "id": 5953,
+      "codigo": "5953",
       "titulo_tipo": "Casa 3 quartos",
-      "endereco": "Rua Idioma Esperanto, 10 - -, Jardim Bela Vista, Guarulhos - SP",
+      "endereco": "Rua Idioma Esperanto, 48 - -, Jardim Bela Vista, Guarulhos - SP",
       "captador": "Dalva Barros",
       "tipo_negociacao": "Venda,Locação",
       "valor": null,
       "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/6085/media/789c33313434323434333230323130334c4c2aca2b4ecbc9050039680615--small.jpg"
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/5953/media/789c33353434b5343033323032313033344b342d4c4e4daa0000372c05aa--small.jpg"
     },
     {
       "id": 2144,
@@ -190,7 +190,7 @@
     "valor": 1110,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13366/media/789c33363435b530303332303231b030ccb1484d4dcfc8b4000038ae05ac--small.jpg",
-    "buscas": 23
+    "buscas": 25
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Sobrado",
@@ -204,6 +204,6 @@
     "bairro": "Cocaia",
     "valor_medio": 1110,
     "quantidade_imoveis": 1,
-    "buscas": 23
+    "buscas": 25
   }
 }
