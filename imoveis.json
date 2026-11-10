@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-09T20:54:59",
-  "total": 15,
+  "gerado_em": "2026-11-10T15:22:22",
+  "total": 16,
   "imoveis": [
     {
       "id": 14055,
@@ -11,7 +11,7 @@
       "tipo_negociacao": "Venda",
       "valor": 310000,
       "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14055/media/apartamento-2-quartos-centro-guarulhos-sp--1cfa7f53--small.jpg"
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14055/media/apartamento-2-quartos-centro-guarulhos-sp--08fec506--small.jpg"
     },
     {
       "id": 14054,
@@ -146,6 +146,17 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13173/media/789cb33031363237303332303231b030b428cfc8354ccb3302003861058b--small.jpg"
     },
     {
+      "id": 6988,
+      "codigo": "6988",
+      "titulo_tipo": "Apartamento 1 quarto",
+      "endereco": "Rua Mercúrio, 273 - Apartamento 44, Jardim Santa Maria, Guarulhos - SP",
+      "captador": "Vera Melo",
+      "tipo_negociacao": "Locação",
+      "valor": 990,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/6988/media/789c3335313031373433323032313033ccae282b4b292b2d02003b70065b--small.jpg"
+    },
+    {
       "id": 5953,
       "codigo": "5953",
       "titulo_tipo": "Casa 3 quartos",
@@ -190,7 +201,7 @@
     "valor": 1110,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13366/media/789c33363435b530303332303231b030ccb1484d4dcfc8b4000038ae05ac--small.jpg",
-    "buscas": 25
+    "buscas": 26
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Sobrado",
@@ -200,10 +211,10 @@
     "buscas": 6
   },
   "tipologia_mais_buscada_locacao": {
-    "tipo": "Apartamento",
-    "bairro": "Cocaia",
-    "valor_medio": 1110,
-    "quantidade_imoveis": 1,
-    "buscas": 25
+    "tipo": "Kitnet",
+    "bairro": "Jardim Bom Clima",
+    "valor_medio": 1217,
+    "quantidade_imoveis": 3,
+    "buscas": 29
   }
 }
