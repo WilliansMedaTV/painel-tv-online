@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-11T15:12:13",
+  "gerado_em": "2026-11-11T19:23:07",
   "total": 23,
   "imoveis": [
     {
@@ -282,10 +282,10 @@
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Sobrado",
-    "bairro": "Macedo",
-    "valor_medio": 670000,
-    "quantidade_imoveis": 1,
-    "buscas": 7
+    "bairro": "Jardim Santa Clara",
+    "valor_medio": 720000,
+    "quantidade_imoveis": 2,
+    "buscas": 8
   },
   "tipologia_mais_buscada_locacao": {
     "tipo": "Kitnet",
