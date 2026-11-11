@@ -1,7 +1,117 @@
 {
-  "gerado_em": "2026-11-10T18:35:38",
-  "total": 16,
+  "gerado_em": "2026-11-11T15:12:13",
+  "total": 23,
   "imoveis": [
+    {
+      "id": 14068,
+      "codigo": "14068",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Santa Izabel, 637 - ap 82, Vila Augusta, Guarulhos - SP",
+      "captador": "Dalva Barros",
+      "tipo_negociacao": "Locação",
+      "valor": 2200,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14068/media/apartamento-2-quartos-vila-augusta-guarulhos-sp--7a5e6519--small.jpg"
+    },
+    {
+      "id": 14067,
+      "codigo": "14067",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Avenida Paulo Faccini, 939 - 164, Macedo, Guarulhos - SP",
+      "captador": "Andrea Marques",
+      "tipo_negociacao": "Venda",
+      "valor": 1150000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14067/media/apartamento-2-quartos-macedo-guarulhos-sp--c54aa2ba--small.jpg"
+    },
+    {
+      "id": 14066,
+      "codigo": "14066",
+      "titulo_tipo": "Galpão",
+      "endereco": "Av. Carlos Ferreira Endres, 424, Vila Endres, Guarulhos - SP",
+      "captador": "Denize Magalhães",
+      "tipo_negociacao": "Locação",
+      "valor": 29900,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14066/media/galpao-vila-endres-guarulhos-sp--37bf08fb--small.jpg"
+    },
+    {
+      "id": 14065,
+      "codigo": "14065",
+      "titulo_tipo": "Kitnet 1 quarto",
+      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - 54, Jardim Bom Clima, Guarulhos - SP",
+      "captador": "Roque Lacerda",
+      "tipo_negociacao": "Locação",
+      "valor": 1200,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14065/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
+    },
+    {
+      "id": 14064,
+      "codigo": "14064",
+      "titulo_tipo": "Kitnet 1 quarto",
+      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - 51, Jardim Bom Clima, Guarulhos - SP",
+      "captador": "Roque Lacerda",
+      "tipo_negociacao": "Locação",
+      "valor": 1200,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14064/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
+    },
+    {
+      "id": 14063,
+      "codigo": "14063",
+      "titulo_tipo": "Kitnet 1 quarto",
+      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - 55, Jardim Bom Clima, Guarulhos - SP",
+      "captador": "Roque Lacerda",
+      "tipo_negociacao": "Locação",
+      "valor": 1250,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14063/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
+    },
+    {
+      "id": 14062,
+      "codigo": "14062",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Amazonas, 391, Vila Galvão, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Venda",
+      "valor": 540000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14062/media/apartamento-2-quartos-vila-galvao-guarulhos-sp--9313b468--small.jpg"
+    },
+    {
+      "id": 14061,
+      "codigo": "14061",
+      "titulo_tipo": "Studio 1 quarto",
+      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - Apto 55, Jardim Bom Clima, Guarulhos - SP",
+      "captador": "Roque Lacerda",
+      "tipo_negociacao": "Locação",
+      "valor": 1250,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14061/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
+    },
+    {
+      "id": 14059,
+      "codigo": "14059",
+      "titulo_tipo": "Casa 2 quartos",
+      "endereco": "Av. Jovita, 545, Jardim Iporanga, Guarulhos - SP",
+      "captador": "Clayton Pereira",
+      "tipo_negociacao": "Venda,Locação",
+      "valor": null,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14059/media/casa-2-quartos-jardim-iporanga-guarulhos-sp--7a20561b--small.jpg"
+    },
+    {
+      "id": 14056,
+      "codigo": "14056",
+      "titulo_tipo": "Galpão",
+      "endereco": "Av. Doutor Assis Ribeiro, 8984, Engenheiro Goulart, São Paulo - SP",
+      "captador": "Denize Magalhães",
+      "tipo_negociacao": "Venda,Locação",
+      "valor": null,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14056/media/galpao-engenheiro-goulart-sao-paulo-sp--7b491c38--small.png"
+    },
     {
       "id": 14055,
       "codigo": "14055",
@@ -91,28 +201,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14048/media/sobrado-5-quartos-vila-galvao-guarulhos-sp--637ef864--small.jpg"
     },
     {
-      "id": 14047,
-      "codigo": "14047",
-      "titulo_tipo": "Sobreloja",
-      "endereco": "Rua Cachoeira, 1460, Jardim Rosa de Franca, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Locação",
-      "valor": 6000,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14047/media/sobreloja-jardim-rosa-de-franca-guarulhos-sp--215788af--small.jpg"
-    },
-    {
-      "id": 14046,
-      "codigo": "14046",
-      "titulo_tipo": "Área",
-      "endereco": "Rua Fronia Kirol Filho, S/N, Vila Maria de Lourdes, Guarulhos - SP",
-      "captador": "Dario Azevedo",
-      "tipo_negociacao": "Venda",
-      "valor": 14000000,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14046/media/area-vila-maria-de-lourdes-guarulhos-sp--4fd1e617--small.jpg"
-    },
-    {
       "id": 14045,
       "codigo": "14045",
       "titulo_tipo": "Apartamento 3 quartos",
@@ -166,30 +254,19 @@
       "valor": null,
       "quartos": 3,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/5953/media/789c33353434b5343033323032313033344b342d4c4e4daa0000372c05aa--small.jpg"
-    },
-    {
-      "id": 2144,
-      "codigo": "2144",
-      "titulo_tipo": "Lote / Terreno",
-      "endereco": "Rodovia Ayrton Senna, 0, Lambari, Guararema - SP",
-      "captador": "Dario Azevedo",
-      "tipo_negociacao": "Venda",
-      "valor": 13500000,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/2144/media/lote--terreno-lambari-guararema-sp--425f0607--small.jpg"
     }
   ],
   "campeao_venda": {
-    "id": 366,
-    "codigo": "366",
-    "titulo_tipo": "Sobrado 3 quartos",
-    "endereco": "Rua Belo Jardim, 473, Jardim Santa Clara, Guarulhos - SP",
-    "captador": "Dario Azevedo",
+    "id": 13686,
+    "codigo": "13686",
+    "titulo_tipo": "Sobrado 2 quartos",
+    "endereco": "Rua do Capote, 15, Macedo, Guarulhos - SP",
+    "captador": "Wagner Xavier",
     "tipo_negociacao": "Venda",
-    "valor": 650000,
-    "quartos": 3,
-    "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/366/media/789c33363637313630333230323130352c2c3535cc33362f0700377c0564--small.jpg",
-    "buscas": 6
+    "valor": 670000,
+    "quartos": 2,
+    "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13686/media/sobrado-3-quartos-macedo-guarulhos-sp--4f3ba16e--small.jpg",
+    "buscas": 7
   },
   "campeao_locacao": {
     "id": 13366,
@@ -201,20 +278,20 @@
     "valor": 1110,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13366/media/789c33363435b530303332303231b030ccb1484d4dcfc8b4000038ae05ac--small.jpg",
-    "buscas": 26
+    "buscas": 28
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Sobrado",
-    "bairro": "Jardim Santa Clara",
-    "valor_medio": 650000,
+    "bairro": "Macedo",
+    "valor_medio": 670000,
     "quantidade_imoveis": 1,
-    "buscas": 6
+    "buscas": 7
   },
   "tipologia_mais_buscada_locacao": {
     "tipo": "Kitnet",
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 31
+    "buscas": 33
   }
 }
