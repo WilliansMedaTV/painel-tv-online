@@ -1,7 +1,18 @@
 {
-  "gerado_em": "2026-11-12T15:38:55",
-  "total": 28,
+  "gerado_em": "2026-11-12T18:59:02",
+  "total": 30,
   "imoveis": [
+    {
+      "id": 14072,
+      "codigo": "14072",
+      "titulo_tipo": "Galpão",
+      "endereco": "Rua Sete de Setembro, 145, Centro, Guarulhos - SP",
+      "captador": "Dario Azevedo",
+      "tipo_negociacao": "Venda,Locação",
+      "valor": null,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14072/media/galpao-centro-guarulhos-sp--ba202f28--small.jpg"
+    },
     {
       "id": 14071,
       "codigo": "14071",
@@ -12,6 +23,17 @@
       "valor": 171000,
       "quartos": null,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14071/media/galpao-parque-industrial-do-jardim-sao-geraldo-guarulhos-sp--9dc5bc34--small.jpg"
+    },
+    {
+      "id": 14070,
+      "codigo": "14070",
+      "titulo_tipo": "Galpão",
+      "endereco": "Av. Santos Dumont, 1779, Cidade Industrial Satélite de São Paulo, Guarulhos - SP",
+      "captador": "Eduardo Brunet",
+      "tipo_negociacao": "Venda,Locação",
+      "valor": null,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14070/media/galpao-cidade-industrial-satelite-de-sao-paulo-guarulhos-sp--49fe4177--small.png"
     },
     {
       "id": 14069,
