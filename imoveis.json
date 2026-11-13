@@ -1,7 +1,18 @@
 {
-  "gerado_em": "2026-11-12T18:59:02",
-  "total": 30,
+  "gerado_em": "2026-11-13T15:16:48",
+  "total": 28,
   "imoveis": [
+    {
+      "id": 14073,
+      "codigo": "14073",
+      "titulo_tipo": "Casa 3 quartos",
+      "endereco": "Rua Décio Antônio Ferroni, 151, Vila São Luis, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda",
+      "valor": 690000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14073/media/casa-3-quartos-vila-sao-luis-guarulhos-sp--5dbce104--small.jpg"
+    },
     {
       "id": 14072,
       "codigo": "14072",
@@ -212,17 +223,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14054/media/sobrado-3-quartos-jardim-city-guarulhos-sp--65557162--small.jpg"
     },
     {
-      "id": 14053,
-      "codigo": "14053",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Avenida Presidente Humberto de Alencar Castelo Branco, 1449 - 184, Vila Augusta, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Venda",
-      "valor": 945000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14053/media/apartamento-2-quartos-vila-augusta-guarulhos-sp--6bf4b3d6--small.jpg"
-    },
-    {
       "id": 14052,
       "codigo": "14052",
       "titulo_tipo": "Sala",
@@ -243,17 +243,6 @@
       "valor": 535000,
       "quartos": 2,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14051/media/apartamento-2-quartos-vila-nova-bonsucesso-guarulhos-sp--6e868c1e--small.jpg"
-    },
-    {
-      "id": 14048,
-      "codigo": "14048",
-      "titulo_tipo": "Sobrado 5 quartos",
-      "endereco": "Rua Nossa Senhora de Lourdes, 619, Vila Galvão, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Venda",
-      "valor": 1520000,
-      "quartos": 5,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14048/media/sobrado-5-quartos-vila-galvao-guarulhos-sp--637ef864--small.jpg"
     },
     {
       "id": 14045,
@@ -287,17 +276,6 @@
       "valor": 2000,
       "quartos": 2,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13533/media/789cb3303636b630303332303231b030cca928ac28cbc8ac04003bdc065e--small.jpg"
-    },
-    {
-      "id": 13173,
-      "codigo": "13173",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Avenida Bartholomeu de Carlos, 675 - 1807, Jardim Flor da Montanha, Guarulhos - SP",
-      "captador": "Daniela Fernandes",
-      "tipo_negociacao": "Locação",
-      "valor": 5000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13173/media/789cb33031363237303332303231b030b428cfc8354ccb3302003861058b--small.jpg"
     },
     {
       "id": 6988,
@@ -343,7 +321,7 @@
     "valor": 670000,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13686/media/sobrado-3-quartos-macedo-guarulhos-sp--4f3ba16e--small.jpg",
-    "buscas": 7
+    "buscas": 9
   },
   "campeao_locacao": {
     "id": 13886,
@@ -355,13 +333,13 @@
     "valor": 1250,
     "quartos": 1,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13886/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg",
-    "buscas": 32
+    "buscas": 36
   },
   "tipologia_mais_buscada_venda": {
-    "tipo": "Sobrado",
-    "bairro": "Jardim Santa Clara",
-    "valor_medio": 720000,
-    "quantidade_imoveis": 2,
+    "tipo": "Apartamento",
+    "bairro": "Centro",
+    "valor_medio": 433333,
+    "quantidade_imoveis": 3,
     "buscas": 10
   },
   "tipologia_mais_buscada_locacao": {
@@ -369,6 +347,6 @@
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 37
+    "buscas": 41
   }
 }
