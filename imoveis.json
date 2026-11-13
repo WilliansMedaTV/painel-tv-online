@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-13T15:16:48",
+  "gerado_em": "2026-11-13T18:44:26",
   "total": 28,
   "imoveis": [
     {
@@ -133,17 +133,6 @@
       "valor": 540000,
       "quartos": 2,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14062/media/apartamento-2-quartos-vila-galvao-guarulhos-sp--9313b468--small.jpg"
-    },
-    {
-      "id": 14061,
-      "codigo": "14061",
-      "titulo_tipo": "Studio 1 quarto",
-      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - Apto 55, Jardim Bom Clima, Guarulhos - SP",
-      "captador": "Roque Lacerda",
-      "tipo_negociacao": "Locação",
-      "valor": 1250,
-      "quartos": 1,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14061/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
     },
     {
       "id": 14060,
@@ -309,6 +298,17 @@
       "valor": 1500,
       "quartos": null,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/3102/media/789c33373235b1343433323032313035342f4dce4c352a3305003885058b--small.jpg"
+    },
+    {
+      "id": 218,
+      "codigo": "218",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua da Penha, 55 - Apartamento 61, Macedo, Guarulhos - SP",
+      "captador": "Dalva Barros",
+      "tipo_negociacao": "Locação",
+      "valor": 2000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/218/media/789c3332b034303230333230323130354c2c314d35322937030036c00544--small.jpg"
     }
   ],
   "campeao_venda": {
@@ -321,7 +321,7 @@
     "valor": 670000,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13686/media/sobrado-3-quartos-macedo-guarulhos-sp--4f3ba16e--small.jpg",
-    "buscas": 9
+    "buscas": 11
   },
   "campeao_locacao": {
     "id": 13886,
@@ -336,11 +336,11 @@
     "buscas": 36
   },
   "tipologia_mais_buscada_venda": {
-    "tipo": "Apartamento",
-    "bairro": "Centro",
-    "valor_medio": 433333,
-    "quantidade_imoveis": 3,
-    "buscas": 10
+    "tipo": "Sobrado",
+    "bairro": "Macedo",
+    "valor_medio": 670000,
+    "quantidade_imoveis": 1,
+    "buscas": 11
   },
   "tipologia_mais_buscada_locacao": {
     "tipo": "Kitnet",
