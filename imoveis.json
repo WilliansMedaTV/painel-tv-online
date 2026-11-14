@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-13T18:44:26",
-  "total": 28,
+  "gerado_em": "2026-11-14T13:48:05",
+  "total": 23,
   "imoveis": [
     {
       "id": 14073,
@@ -188,61 +188,6 @@
       "valor": null,
       "quartos": null,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14056/media/galpao-engenheiro-goulart-sao-paulo-sp--7b491c38--small.png"
-    },
-    {
-      "id": 14055,
-      "codigo": "14055",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Padre Celestino, 579, Centro, Guarulhos - SP",
-      "captador": "Maria Vendramini",
-      "tipo_negociacao": "Venda",
-      "valor": 310000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14055/media/apartamento-2-quartos-centro-guarulhos-sp--08fec506--small.jpg"
-    },
-    {
-      "id": 14054,
-      "codigo": "14054",
-      "titulo_tipo": "Sobrado 3 quartos",
-      "endereco": "Rua Prefeito Rinaldo Poli, 130, Jardim City, Guarulhos - SP",
-      "captador": "Dario Azevedo",
-      "tipo_negociacao": "Venda",
-      "valor": 680000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14054/media/sobrado-3-quartos-jardim-city-guarulhos-sp--65557162--small.jpg"
-    },
-    {
-      "id": 14052,
-      "codigo": "14052",
-      "titulo_tipo": "Sala",
-      "endereco": "Rua Mandaguari, 39, Jardim Bom Clima, Guarulhos - SP",
-      "captador": "Clayton Pereira",
-      "tipo_negociacao": "Locação",
-      "valor": 5500,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14052/media/sala-jardim-bom-clima-guarulhos-sp--705af723--small.jpg"
-    },
-    {
-      "id": 14051,
-      "codigo": "14051",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Remanso, 79 - 112, Vila Nova Bonsucesso, Guarulhos - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda",
-      "valor": 535000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14051/media/apartamento-2-quartos-vila-nova-bonsucesso-guarulhos-sp--6e868c1e--small.jpg"
-    },
-    {
-      "id": 14045,
-      "codigo": "14045",
-      "titulo_tipo": "Apartamento 3 quartos",
-      "endereco": "Av. do Oratório, 401 - 145, Vila Independência, São Paulo - SP",
-      "captador": "Denize Magalhães",
-      "tipo_negociacao": "Venda",
-      "valor": 1350000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14045/media/apartamento-3-quartos-vila-independencia-sao-paulo-sp--eb002dba--small.jpg"
     },
     {
       "id": 13842,
