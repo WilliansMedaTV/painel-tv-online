@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-15T17:40:31",
+  "gerado_em": "2026-11-16T17:44:37",
   "total": 23,
   "imoveis": [
     {
@@ -278,20 +278,20 @@
     "valor": 1250,
     "quartos": 1,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13886/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg",
-    "buscas": 36
+    "buscas": 46
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Sobrado",
     "bairro": "Macedo",
-    "valor_medio": 670000,
-    "quantidade_imoveis": 1,
-    "buscas": 11
+    "valor_medio": 985000,
+    "quantidade_imoveis": 2,
+    "buscas": 13
   },
   "tipologia_mais_buscada_locacao": {
     "tipo": "Kitnet",
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 41
+    "buscas": 51
   }
 }
