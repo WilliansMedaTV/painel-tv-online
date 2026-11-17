@@ -1,7 +1,18 @@
 {
-  "gerado_em": "2026-11-16T20:55:31",
+  "gerado_em": "2026-11-17T16:28:59",
   "total": 23,
   "imoveis": [
+    {
+      "id": 14074,
+      "codigo": "14074",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Macaé, 96 - 55, Jardim Barbosa, Guarulhos - SP",
+      "captador": "Denize Magalhães",
+      "tipo_negociacao": "Locação",
+      "valor": 1900,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14074/media/apartamento-2-quartos-jardim-barbosa-guarulhos-sp--f2fa3d72--small.jpg"
+    },
     {
       "id": 14073,
       "codigo": "14073",
@@ -223,17 +234,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/6988/media/789c3335313031373433323032313033ccae282b4b292b2d02003b70065b--small.jpg"
     },
     {
-      "id": 5953,
-      "codigo": "5953",
-      "titulo_tipo": "Casa 3 quartos",
-      "endereco": "Rua Idioma Esperanto, 48 - -, Jardim Bela Vista, Guarulhos - SP",
-      "captador": "Dalva Barros",
-      "tipo_negociacao": "Venda,Locação",
-      "valor": null,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/5953/media/789c33353434b5343033323032313033344b342d4c4e4daa0000372c05aa--small.jpg"
-    },
-    {
       "id": 3102,
       "codigo": "3102",
       "titulo_tipo": "Sala",
@@ -278,20 +278,20 @@
     "valor": 1250,
     "quartos": 1,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13886/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg",
-    "buscas": 46
+    "buscas": 48
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Sobrado",
     "bairro": "Macedo",
-    "valor_medio": 985000,
-    "quantidade_imoveis": 2,
-    "buscas": 13
+    "valor_medio": 670000,
+    "quantidade_imoveis": 1,
+    "buscas": 11
   },
   "tipologia_mais_buscada_locacao": {
     "tipo": "Kitnet",
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 51
+    "buscas": 53
   }
 }
