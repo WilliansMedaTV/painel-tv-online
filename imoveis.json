@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-17T16:28:59",
+  "gerado_em": "2026-11-17T20:15:10",
   "total": 23,
   "imoveis": [
     {
@@ -292,6 +292,6 @@
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 53
+    "buscas": 55
   }
 }
