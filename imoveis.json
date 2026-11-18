@@ -1,7 +1,40 @@
 {
-  "gerado_em": "2026-11-17T20:15:10",
-  "total": 23,
+  "gerado_em": "2026-11-18T16:11:29",
+  "total": 26,
   "imoveis": [
+    {
+      "id": 14078,
+      "codigo": "14078",
+      "titulo_tipo": "Casa 3 quartos",
+      "endereco": "Rua dos Coqueiros, 197, Vila Galvão, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda",
+      "valor": 1100000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14078/media/casa-3-quartos-vila-galvao-guarulhos-sp--7bba5031--small.jpg"
+    },
+    {
+      "id": 14077,
+      "codigo": "14077",
+      "titulo_tipo": "Sobrado 3 quartos",
+      "endereco": "Rua ubiratan marcelino de souza, 219 - 64, Parque Continental, Guarulhos - SP",
+      "captador": "Wagner Xavier",
+      "tipo_negociacao": "Venda",
+      "valor": 730000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14077/media/sobrado-3-quartos-parque-continental-guarulhos-sp--b80779b0--small.jpg"
+    },
+    {
+      "id": 14076,
+      "codigo": "14076",
+      "titulo_tipo": "Apartamento 3 quartos",
+      "endereco": "Rua Nossa Senhora de Lourdes, 64 - 122, Vila Galvão, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda,Locação",
+      "valor": null,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14076/media/apartamento-3-quartos-vila-galvao-guarulhos-sp--62fca2b4--small.jpg"
+    },
     {
       "id": 14074,
       "codigo": "14074",
@@ -201,15 +234,15 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14056/media/galpao-engenheiro-goulart-sao-paulo-sp--7b491c38--small.png"
     },
     {
-      "id": 13842,
-      "codigo": "13842",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua José Damiani, 209 - bl, Ponte Grande, Guarulhos - SP",
-      "captador": "Clayton Pereira",
-      "tipo_negociacao": "Locação",
-      "valor": 2700,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13842/media/apartamento-2-quartos-ponte-grande-guarulhos-sp--87816a71--small.jpg"
+      "id": 13981,
+      "codigo": "13981",
+      "titulo_tipo": "Sobrado 3 quartos",
+      "endereco": "Rua Francisco Antunes, 357, Vila Augusta, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Venda",
+      "valor": 779000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13981/media/sobrado-3-quartos-vila-augusta-guarulhos-sp--37e8288c--small.jpg"
     },
     {
       "id": 13533,
@@ -223,15 +256,15 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13533/media/789cb3303636b630303332303231b030cca928ac28cbc8ac04003bdc065e--small.jpg"
     },
     {
-      "id": 6988,
-      "codigo": "6988",
-      "titulo_tipo": "Apartamento 1 quarto",
-      "endereco": "Rua Mercúrio, 273 - Apartamento 44, Jardim Santa Maria, Guarulhos - SP",
-      "captador": "Roque Lacerda",
+      "id": 9118,
+      "codigo": "9118",
+      "titulo_tipo": "Apartamento 4 quartos",
+      "endereco": "Praça Capitão Alberto Mendes Júnior, 71 - Apartamento 95, Centro, Guarulhos - SP",
+      "captador": "Dalva Barros",
       "tipo_negociacao": "Locação",
-      "valor": 990,
-      "quartos": 1,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/6988/media/789c3335313031373433323032313033ccae282b4b292b2d02003b70065b--small.jpg"
+      "valor": 4500,
+      "quartos": 4,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/9118/media/789c3331323636333033323032313037cccab22836c8cfce0000385005ba--small.jpg"
     },
     {
       "id": 3102,
@@ -278,20 +311,20 @@
     "valor": 1250,
     "quartos": 1,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13886/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg",
-    "buscas": 48
+    "buscas": 49
   },
   "tipologia_mais_buscada_venda": {
-    "tipo": "Sobrado",
+    "tipo": "Apartamento",
     "bairro": "Macedo",
-    "valor_medio": 670000,
-    "quantidade_imoveis": 1,
-    "buscas": 11
+    "valor_medio": 275000,
+    "quantidade_imoveis": 3,
+    "buscas": 12
   },
   "tipologia_mais_buscada_locacao": {
     "tipo": "Kitnet",
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 55
+    "buscas": 56
   }
 }
