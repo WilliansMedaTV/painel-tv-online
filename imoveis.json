@@ -1,7 +1,29 @@
 {
-  "gerado_em": "2026-11-18T19:47:19",
-  "total": 26,
+  "gerado_em": "2026-11-19T16:15:12",
+  "total": 19,
   "imoveis": [
+    {
+      "id": 14082,
+      "codigo": "14082",
+      "titulo_tipo": "Apartamento 1 quarto",
+      "endereco": "Avenida Bartolomeu de Carlos, 901 - Apto 1503. Torre Alameda, Jardim Flor da Montanha, Guarulhos - SP",
+      "captador": "Willians Meda",
+      "tipo_negociacao": "Venda",
+      "valor": 600000,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14082/media/apartamento-1-quarto-jardim-flor-da-montanha-guarulhos-sp--6da1dd5e--small.png"
+    },
+    {
+      "id": 14081,
+      "codigo": "14081",
+      "titulo_tipo": "Apartamento 3 quartos",
+      "endereco": "Rua Brás Cubas, 312 - Apto 504, Vila Lanzara, Guarulhos - SP",
+      "captador": "Willians Meda",
+      "tipo_negociacao": "Venda",
+      "valor": 2690000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14081/media/apartamento-3-quartos-vila-lanzara-guarulhos-sp--12db1d13--small.jpg"
+    },
     {
       "id": 14078,
       "codigo": "14078",
@@ -102,83 +124,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14069/media/apartamento-2-quartos-jardim-flor-da-montanha-guarulhos-sp--008c2b8c--small.jpg"
     },
     {
-      "id": 14068,
-      "codigo": "14068",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Santa Izabel, 637 - ap 82, Vila Augusta, Guarulhos - SP",
-      "captador": "Dalva Barros",
-      "tipo_negociacao": "Locação",
-      "valor": 2200,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14068/media/apartamento-2-quartos-vila-augusta-guarulhos-sp--7a5e6519--small.jpg"
-    },
-    {
-      "id": 14067,
-      "codigo": "14067",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Avenida Paulo Faccini, 939 - 164, Macedo, Guarulhos - SP",
-      "captador": "Andrea Marques",
-      "tipo_negociacao": "Venda",
-      "valor": 1150000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14067/media/apartamento-2-quartos-macedo-guarulhos-sp--c54aa2ba--small.jpg"
-    },
-    {
-      "id": 14066,
-      "codigo": "14066",
-      "titulo_tipo": "Galpão",
-      "endereco": "Av. Carlos Ferreira Endres, 424, Vila Endres, Guarulhos - SP",
-      "captador": "Denize Magalhães",
-      "tipo_negociacao": "Locação",
-      "valor": 29900,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14066/media/galpao-vila-endres-guarulhos-sp--37bf08fb--small.jpg"
-    },
-    {
-      "id": 14065,
-      "codigo": "14065",
-      "titulo_tipo": "Kitnet 1 quarto",
-      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - 54, Jardim Bom Clima, Guarulhos - SP",
-      "captador": "Roque Lacerda",
-      "tipo_negociacao": "Locação",
-      "valor": 1200,
-      "quartos": 1,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14065/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
-    },
-    {
-      "id": 14064,
-      "codigo": "14064",
-      "titulo_tipo": "Kitnet 1 quarto",
-      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - 51, Jardim Bom Clima, Guarulhos - SP",
-      "captador": "Roque Lacerda",
-      "tipo_negociacao": "Locação",
-      "valor": 1200,
-      "quartos": 1,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14064/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
-    },
-    {
-      "id": 14063,
-      "codigo": "14063",
-      "titulo_tipo": "Kitnet 1 quarto",
-      "endereco": "Rua Professor Vasco de Queiroz Guimarães, 497 - 55, Jardim Bom Clima, Guarulhos - SP",
-      "captador": "Roque Lacerda",
-      "tipo_negociacao": "Locação",
-      "valor": 1250,
-      "quartos": 1,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14063/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg"
-    },
-    {
-      "id": 14062,
-      "codigo": "14062",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Amazonas, 391, Vila Galvão, Guarulhos - SP",
-      "captador": "Maria Vendramini",
-      "tipo_negociacao": "Venda",
-      "valor": 540000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14062/media/apartamento-2-quartos-vila-galvao-guarulhos-sp--9313b468--small.jpg"
-    },
-    {
       "id": 14060,
       "codigo": "14060",
       "titulo_tipo": "Sobrado 4 quartos",
@@ -188,17 +133,6 @@
       "valor": 3200000,
       "quartos": 4,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14060/media/sobrado-4-quartos-vila-rosalia-guarulhos-sp--4ba38543--small.png"
-    },
-    {
-      "id": 14059,
-      "codigo": "14059",
-      "titulo_tipo": "Casa 2 quartos",
-      "endereco": "Av. Jovita, 545, Jardim Iporanga, Guarulhos - SP",
-      "captador": "Clayton Pereira",
-      "tipo_negociacao": "Venda,Locação",
-      "valor": null,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14059/media/casa-2-quartos-jardim-iporanga-guarulhos-sp--7a20561b--small.jpg"
     },
     {
       "id": 14058,
@@ -223,24 +157,13 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14057/media/apartamento-2-quartos-picanco-guarulhos-sp--c4fa5544--small.jpg"
     },
     {
-      "id": 14056,
-      "codigo": "14056",
-      "titulo_tipo": "Galpão",
-      "endereco": "Av. Doutor Assis Ribeiro, 8984, Engenheiro Goulart, São Paulo - SP",
-      "captador": "Denize Magalhães",
-      "tipo_negociacao": "Venda,Locação",
-      "valor": null,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14056/media/galpao-engenheiro-goulart-sao-paulo-sp--7b491c38--small.png"
-    },
-    {
       "id": 13981,
       "codigo": "13981",
       "titulo_tipo": "Sobrado 3 quartos",
       "endereco": "Rua Francisco Antunes, 357, Vila Augusta, Guarulhos - SP",
       "captador": "Maria Vendramini",
       "tipo_negociacao": "Venda",
-      "valor": 779000,
+      "valor": 780000,
       "quartos": 3,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13981/media/sobrado-3-quartos-vila-augusta-guarulhos-sp--37e8288c--small.jpg"
     },
@@ -325,6 +248,6 @@
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 56
+    "buscas": 58
   }
 }
