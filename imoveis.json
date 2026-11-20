@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-11-19T19:50:39",
-  "total": 19,
+  "gerado_em": "2026-11-20T15:55:02",
+  "total": 10,
   "imoveis": [
     {
       "id": 14082,
       "codigo": "14082",
-      "titulo_tipo": "Apartamento 1 quarto",
+      "titulo_tipo": "Studio 1 quarto",
       "endereco": "Avenida Bartolomeu de Carlos, 901 - Apto 1503. Torre Alameda, Jardim Flor da Montanha, Guarulhos - SP",
       "captador": "Willians Meda",
       "tipo_negociacao": "Venda",
@@ -80,83 +80,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14073/media/casa-3-quartos-vila-sao-luis-guarulhos-sp--5dbce104--small.jpg"
     },
     {
-      "id": 14072,
-      "codigo": "14072",
-      "titulo_tipo": "Galpão",
-      "endereco": "Rua Sete de Setembro, 145, Centro, Guarulhos - SP",
-      "captador": "Dario Azevedo",
-      "tipo_negociacao": "Venda,Locação",
-      "valor": null,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14072/media/galpao-centro-guarulhos-sp--ba202f28--small.jpg"
-    },
-    {
-      "id": 14071,
-      "codigo": "14071",
-      "titulo_tipo": "Galpão",
-      "endereco": "Rua Engenheiro Albert Leimer, 360, Parque Industrial do Jardim São Geraldo, Guarulhos - SP",
-      "captador": "Dario Azevedo",
-      "tipo_negociacao": "Locação",
-      "valor": 171000,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14071/media/galpao-parque-industrial-do-jardim-sao-geraldo-guarulhos-sp--9dc5bc34--small.jpg"
-    },
-    {
-      "id": 14070,
-      "codigo": "14070",
-      "titulo_tipo": "Galpão",
-      "endereco": "Av. Santos Dumont, 1779, Cidade Industrial Satélite de São Paulo, Guarulhos - SP",
-      "captador": "Eduardo Brunet",
-      "tipo_negociacao": "Venda,Locação",
-      "valor": null,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14070/media/galpao-cidade-industrial-satelite-de-sao-paulo-guarulhos-sp--49fe4177--small.png"
-    },
-    {
-      "id": 14069,
-      "codigo": "14069",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Dona Tecla, 602 - 1615, Jardim Flor da Montanha, Guarulhos - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda",
-      "valor": 650000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14069/media/apartamento-2-quartos-jardim-flor-da-montanha-guarulhos-sp--008c2b8c--small.jpg"
-    },
-    {
-      "id": 14060,
-      "codigo": "14060",
-      "titulo_tipo": "Sobrado 4 quartos",
-      "endereco": "Rua Jacareí, 21, Vila Galvão, Guarulhos - SP",
-      "captador": "Eduardo Brunet",
-      "tipo_negociacao": "Venda",
-      "valor": 3200000,
-      "quartos": 4,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14060/media/sobrado-4-quartos-vila-rosalia-guarulhos-sp--4ba38543--small.png"
-    },
-    {
-      "id": 14058,
-      "codigo": "14058",
-      "titulo_tipo": "Lote / Terreno",
-      "endereco": "Rua Belo Jardim, 531, Jardim Santa Clara, Guarulhos - SP",
-      "captador": "Denize Magalhães",
-      "tipo_negociacao": "Venda",
-      "valor": 630000,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14058/media/lote--terreno-jardim-santa-clara-guarulhos-sp--e945fed4--small.jpg"
-    },
-    {
-      "id": 14057,
-      "codigo": "14057",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Antonieta, 252 - 102, Picanço, Guarulhos - SP",
-      "captador": "Denize Magalhães",
-      "tipo_negociacao": "Venda",
-      "valor": 630000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14057/media/apartamento-2-quartos-picanco-guarulhos-sp--c4fa5544--small.jpg"
-    },
-    {
       "id": 13981,
       "codigo": "13981",
       "titulo_tipo": "Sobrado 3 quartos",
@@ -168,17 +91,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13981/media/sobrado-3-quartos-vila-augusta-guarulhos-sp--37e8288c--small.jpg"
     },
     {
-      "id": 13533,
-      "codigo": "13533",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Campinas, 634 - APTO 73, Vila Rosália, Guarulhos - SP",
-      "captador": "Flavio Oliveira",
-      "tipo_negociacao": "Locação",
-      "valor": 2000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13533/media/789cb3303636b630303332303231b030cca928ac28cbc8ac04003bdc065e--small.jpg"
-    },
-    {
       "id": 9118,
       "codigo": "9118",
       "titulo_tipo": "Apartamento 4 quartos",
@@ -188,17 +100,6 @@
       "valor": 4500,
       "quartos": 4,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/9118/media/789c3331323636333033323032313037cccab22836c8cfce0000385005ba--small.jpg"
-    },
-    {
-      "id": 3102,
-      "codigo": "3102",
-      "titulo_tipo": "Sala",
-      "endereco": "Rua São Domingos, 246 - Sala 4, Jardim São Paulo, Guarulhos - SP",
-      "captador": "Dalva Barros",
-      "tipo_negociacao": "Locação",
-      "valor": 1500,
-      "quartos": null,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/3102/media/789c33373235b1343433323032313035342f4dce4c352a3305003885058b--small.jpg"
     },
     {
       "id": 218,
