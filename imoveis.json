@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-20T19:26:43",
-  "total": 10,
+  "gerado_em": "2026-11-21T14:49:55",
+  "total": 8,
   "imoveis": [
     {
       "id": 14082,
@@ -69,17 +69,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14074/media/apartamento-2-quartos-jardim-barbosa-guarulhos-sp--f2fa3d72--small.jpg"
     },
     {
-      "id": 14073,
-      "codigo": "14073",
-      "titulo_tipo": "Casa 3 quartos",
-      "endereco": "Rua Décio Antônio Ferroni, 151, Vila São Luis, Guarulhos - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda",
-      "valor": 690000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14073/media/casa-3-quartos-vila-sao-luis-guarulhos-sp--5dbce104--small.jpg"
-    },
-    {
       "id": 13981,
       "codigo": "13981",
       "titulo_tipo": "Sobrado 3 quartos",
@@ -100,17 +89,6 @@
       "valor": 4500,
       "quartos": 4,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/9118/media/789c3331323636333033323032313037cccab22836c8cfce0000385005ba--small.jpg"
-    },
-    {
-      "id": 218,
-      "codigo": "218",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua da Penha, 55 - Apartamento 61, Macedo, Guarulhos - SP",
-      "captador": "Dalva Barros",
-      "tipo_negociacao": "Locação",
-      "valor": 2000,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/218/media/789c3332b034303230333230323130354c2c314d35322937030036c00544--small.jpg"
     }
   ],
   "campeao_venda": {
