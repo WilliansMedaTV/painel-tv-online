@@ -1,7 +1,51 @@
 {
-  "gerado_em": "2026-11-22T18:25:47",
-  "total": 8,
+  "gerado_em": "2026-11-23T19:18:42",
+  "total": 13,
   "imoveis": [
+    {
+      "id": 14087,
+      "codigo": "14087",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Doutor Solon Fernandes, 230 - 64, Vila Rosália, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Locação",
+      "valor": 2200,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14087/media/apartamento-2-quartos-vila-rosalia-guarulhos-sp--909232fc--small.jpg"
+    },
+    {
+      "id": 14086,
+      "codigo": "14086",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Jacinto, 276 - 31, Jardim Maria Dirce, Guarulhos - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Locação",
+      "valor": 1350,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14086/media/apartamento-2-quartos-jardim-maria-dirce-guarulhos-sp--1e2ae242--small.jpg"
+    },
+    {
+      "id": 14085,
+      "codigo": "14085",
+      "titulo_tipo": "Apartamento 3 quartos",
+      "endereco": "Praça Capitão Alberto Mendes Júnior, 71 - ap. 162, Centro, Guarulhos - SP",
+      "captador": "Dalva Barros",
+      "tipo_negociacao": "Venda",
+      "valor": 1010000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14085/media/apartamento-3-quartos-centro-guarulhos-sp--04df4788--small.jpg"
+    },
+    {
+      "id": 14084,
+      "codigo": "14084",
+      "titulo_tipo": "Área",
+      "endereco": "Estrada do Elenco, 835 - 1, Jardim Dona Meri, Guarulhos - SP",
+      "captador": "Wagner Xavier",
+      "tipo_negociacao": "Venda",
+      "valor": 52800000,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14084/media/area-jardim-dona-meri-guarulhos-sp--c8031c71--small.jpg"
+    },
     {
       "id": 14082,
       "codigo": "14082",
@@ -25,6 +69,17 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14081/media/apartamento-3-quartos-vila-lanzara-guarulhos-sp--12db1d13--small.jpg"
     },
     {
+      "id": 14080,
+      "codigo": "14080",
+      "titulo_tipo": "Chácara / Sítio / Granja 3 quartos",
+      "endereco": "Estrada Esmeria Maria Rodrigues, 85, Correa, Arujá - SP",
+      "captador": "Denize Magalhães",
+      "tipo_negociacao": "Venda",
+      "valor": 2600000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14080/media/chacara--sitio--granja-3-quartos-canjicas-aruja-sp--8e518b2a--small.jpg"
+    },
+    {
       "id": 14078,
       "codigo": "14078",
       "titulo_tipo": "Casa 3 quartos",
@@ -44,7 +99,7 @@
       "tipo_negociacao": "Venda",
       "valor": 730000,
       "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14077/media/sobrado-3-quartos-parque-continental-guarulhos-sp--b80779b0--small.jpg"
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14077/media/sobrado-3-quartos-parque-continental-guarulhos-sp--acf98bc9--small.jpg"
     },
     {
       "id": 14076,
@@ -113,7 +168,7 @@
     "valor": 1250,
     "quartos": 1,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13886/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg",
-    "buscas": 49
+    "buscas": 51
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Apartamento",
@@ -127,6 +182,6 @@
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 58
+    "buscas": 60
   }
 }
