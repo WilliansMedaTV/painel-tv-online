@@ -1,7 +1,29 @@
 {
-  "gerado_em": "2026-11-23T23:41:21",
-  "total": 13,
+  "gerado_em": "2026-11-24T17:55:49",
+  "total": 17,
   "imoveis": [
+    {
+      "id": 14091,
+      "codigo": "14091",
+      "titulo_tipo": "Apartamento 1 quarto",
+      "endereco": "Rua Dona Antônia, 114 - 1ª andar, Vila das Palmeiras, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Locação",
+      "valor": 1400,
+      "quartos": 1,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14091/media/apartamento-1-quarto-vila-das-palmeiras-guarulhos-sp--aff0654b--small.jpg"
+    },
+    {
+      "id": 14088,
+      "codigo": "14088",
+      "titulo_tipo": "Sobrado 3 quartos",
+      "endereco": "Rua Engenheiro Joaquim Sampaio Ferraz, 148, Vila Mazzei, São Paulo - SP",
+      "captador": "Eddy Silva",
+      "tipo_negociacao": "Venda",
+      "valor": 680000,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14088/media/sobrado-3-quartos-vila-mazzei-sao-paulo-sp--241771a3--small.jpg"
+    },
     {
       "id": 14087,
       "codigo": "14087",
@@ -80,6 +102,17 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14080/media/chacara--sitio--granja-3-quartos-canjicas-aruja-sp--8e518b2a--small.jpg"
     },
     {
+      "id": 14079,
+      "codigo": "14079",
+      "titulo_tipo": "Casa 2 quartos",
+      "endereco": "Rua Rancho Alegre, 87, Vila Nossa Senhora de Fátima, Guarulhos - SP",
+      "captador": "Maria Vendramini",
+      "tipo_negociacao": "Locação",
+      "valor": 3000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14079/media/casa-2-quartos-vila-nossa-senhora-de-fatima-guarulhos-sp--a98dbf66--small.jpg"
+    },
+    {
       "id": 14078,
       "codigo": "14078",
       "titulo_tipo": "Casa 3 quartos",
@@ -135,6 +168,17 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13981/media/sobrado-3-quartos-vila-augusta-guarulhos-sp--37e8288c--small.jpg"
     },
     {
+      "id": 13824,
+      "codigo": "13824",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Rua Oboe, 132 - Apto 38, Macedo, Guarulhos - SP",
+      "captador": "Daniela Fernandes",
+      "tipo_negociacao": "Venda",
+      "valor": 435000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13824/media/apartamento-2-quartos-macedo-guarulhos-sp--74499fb1--small.jpg"
+    },
+    {
       "id": 9118,
       "codigo": "9118",
       "titulo_tipo": "Apartamento 4 quartos",
@@ -156,7 +200,7 @@
     "valor": 670000,
     "quartos": 2,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13686/media/sobrado-3-quartos-macedo-guarulhos-sp--4f3ba16e--small.jpg",
-    "buscas": 11
+    "buscas": 12
   },
   "campeao_locacao": {
     "id": 13886,
