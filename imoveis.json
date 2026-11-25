@@ -1,7 +1,29 @@
 {
-  "gerado_em": "2026-11-24T21:15:28",
-  "total": 17,
+  "gerado_em": "2026-11-25T17:18:48",
+  "total": 18,
   "imoveis": [
+    {
+      "id": 14093,
+      "codigo": "14093",
+      "titulo_tipo": "Chácara / Sítio / Granja",
+      "endereco": "Estr. de Servidão, 0, Mairiporã, Mairiporã - SP",
+      "captador": "Willians Meda",
+      "tipo_negociacao": "Venda",
+      "valor": 1000000,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14093/media/chacara--sitio--granja-mairipora-mairipora-sp--cdc148b0--small.jpg"
+    },
+    {
+      "id": 14092,
+      "codigo": "14092",
+      "titulo_tipo": "Sobrado 3 quartos",
+      "endereco": "Estrada dos Mendes, 401 - CASA 10, Taboão, São Roque - SP",
+      "captador": "Polyana Ferreira",
+      "tipo_negociacao": "Locação",
+      "valor": 3100,
+      "quartos": 3,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14092/media/sobrado-3-quartos-taboao-sao-roque-sp--dee97ae1--small.png"
+    },
     {
       "id": 14091,
       "codigo": "14091",
@@ -146,17 +168,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14076/media/apartamento-3-quartos-vila-galvao-guarulhos-sp--62fca2b4--small.jpg"
     },
     {
-      "id": 14074,
-      "codigo": "14074",
-      "titulo_tipo": "Apartamento 2 quartos",
-      "endereco": "Rua Macaé, 96 - 55, Jardim Barbosa, Guarulhos - SP",
-      "captador": "Denize Magalhães",
-      "tipo_negociacao": "Locação",
-      "valor": 1900,
-      "quartos": 2,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14074/media/apartamento-2-quartos-jardim-barbosa-guarulhos-sp--f2fa3d72--small.jpg"
-    },
-    {
       "id": 13981,
       "codigo": "13981",
       "titulo_tipo": "Sobrado 3 quartos",
@@ -212,7 +223,7 @@
     "valor": 1250,
     "quartos": 1,
     "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13886/media/kitnet-1-quarto-jardim-bom-clima-guarulhos-sp--cbf744ab--small.jpg",
-    "buscas": 51
+    "buscas": 57
   },
   "tipologia_mais_buscada_venda": {
     "tipo": "Apartamento",
@@ -226,6 +237,6 @@
     "bairro": "Jardim Bom Clima",
     "valor_medio": 1217,
     "quantidade_imoveis": 3,
-    "buscas": 60
+    "buscas": 66
   }
 }
