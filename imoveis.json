@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-25T20:55:05",
-  "total": 18,
+  "gerado_em": "2026-11-26T16:55:07",
+  "total": 13,
   "imoveis": [
     {
       "id": 14093,
@@ -135,50 +135,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14079/media/casa-2-quartos-vila-nossa-senhora-de-fatima-guarulhos-sp--a98dbf66--small.jpg"
     },
     {
-      "id": 14078,
-      "codigo": "14078",
-      "titulo_tipo": "Casa 3 quartos",
-      "endereco": "Rua dos Coqueiros, 197, Vila Galvão, Guarulhos - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda",
-      "valor": 1100000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14078/media/casa-3-quartos-vila-galvao-guarulhos-sp--7bba5031--small.jpg"
-    },
-    {
-      "id": 14077,
-      "codigo": "14077",
-      "titulo_tipo": "Sobrado 3 quartos",
-      "endereco": "Rua ubiratan marcelino de souza, 219 - 64, Parque Continental, Guarulhos - SP",
-      "captador": "Wagner Xavier",
-      "tipo_negociacao": "Venda",
-      "valor": 730000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14077/media/sobrado-3-quartos-parque-continental-guarulhos-sp--acf98bc9--small.jpg"
-    },
-    {
-      "id": 14076,
-      "codigo": "14076",
-      "titulo_tipo": "Apartamento 3 quartos",
-      "endereco": "Rua Nossa Senhora de Lourdes, 64 - 122, Vila Galvão, Guarulhos - SP",
-      "captador": "Eddy Silva",
-      "tipo_negociacao": "Venda,Locação",
-      "valor": null,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14076/media/apartamento-3-quartos-vila-galvao-guarulhos-sp--62fca2b4--small.jpg"
-    },
-    {
-      "id": 13981,
-      "codigo": "13981",
-      "titulo_tipo": "Sobrado 3 quartos",
-      "endereco": "Rua Francisco Antunes, 357, Vila Augusta, Guarulhos - SP",
-      "captador": "Maria Vendramini",
-      "tipo_negociacao": "Venda",
-      "valor": 780000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13981/media/sobrado-3-quartos-vila-augusta-guarulhos-sp--37e8288c--small.jpg"
-    },
-    {
       "id": 13824,
       "codigo": "13824",
       "titulo_tipo": "Apartamento 2 quartos",
@@ -188,17 +144,6 @@
       "valor": 435000,
       "quartos": 2,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13824/media/apartamento-2-quartos-macedo-guarulhos-sp--74499fb1--small.jpg"
-    },
-    {
-      "id": 9118,
-      "codigo": "9118",
-      "titulo_tipo": "Apartamento 4 quartos",
-      "endereco": "Praça Capitão Alberto Mendes Júnior, 71 - Apartamento 95, Centro, Guarulhos - SP",
-      "captador": "Dalva Barros",
-      "tipo_negociacao": "Locação",
-      "valor": 4500,
-      "quartos": 4,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/9118/media/789c3331323636333033323032313037cccab22836c8cfce0000385005ba--small.jpg"
     }
   ],
   "campeao_venda": {
