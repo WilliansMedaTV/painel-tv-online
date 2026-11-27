@@ -1,7 +1,18 @@
 {
-  "gerado_em": "2026-11-26T21:11:18",
+  "gerado_em": "2026-11-27T16:43:51",
   "total": 13,
   "imoveis": [
+    {
+      "id": 14095,
+      "codigo": "14095",
+      "titulo_tipo": "Apartamento 2 quartos",
+      "endereco": "Avenida Monteiro Lobato, 828 - Apto 670, Macedo, Guarulhos - SP",
+      "captador": "Willians Meda",
+      "tipo_negociacao": "Venda",
+      "valor": 447000,
+      "quartos": 2,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14095/media/apartamento-2-quartos-macedo-guarulhos-sp--b308d8a8--small.jpg"
+    },
     {
       "id": 14093,
       "codigo": "14093",
@@ -91,28 +102,6 @@
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14084/media/area-jardim-dona-meri-guarulhos-sp--c8031c71--small.jpg"
     },
     {
-      "id": 14082,
-      "codigo": "14082",
-      "titulo_tipo": "Studio 1 quarto",
-      "endereco": "Avenida Bartolomeu de Carlos, 901 - Apto 1503. Torre Alameda, Jardim Flor da Montanha, Guarulhos - SP",
-      "captador": "Willians Meda",
-      "tipo_negociacao": "Venda",
-      "valor": 600000,
-      "quartos": 1,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14082/media/apartamento-1-quarto-jardim-flor-da-montanha-guarulhos-sp--6da1dd5e--small.png"
-    },
-    {
-      "id": 14081,
-      "codigo": "14081",
-      "titulo_tipo": "Apartamento 3 quartos",
-      "endereco": "Rua Brás Cubas, 312 - Apto 504, Vila Lanzara, Guarulhos - SP",
-      "captador": "Willians Meda",
-      "tipo_negociacao": "Venda",
-      "valor": 2690000,
-      "quartos": 3,
-      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/14081/media/apartamento-3-quartos-vila-lanzara-guarulhos-sp--12db1d13--small.jpg"
-    },
-    {
       "id": 14080,
       "codigo": "14080",
       "titulo_tipo": "Chácara / Sítio / Granja 3 quartos",
@@ -144,6 +133,17 @@
       "valor": 435000,
       "quartos": 2,
       "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/13824/media/apartamento-2-quartos-macedo-guarulhos-sp--74499fb1--small.jpg"
+    },
+    {
+      "id": 3711,
+      "codigo": "3711",
+      "titulo_tipo": "Loja",
+      "endereco": "Avenida Doutor Renato de Andrade Maia, 1028 - -, Parque Renato Maia, Guarulhos - SP",
+      "captador": "maria vendramini",
+      "tipo_negociacao": "Locação",
+      "valor": 8000,
+      "quartos": null,
+      "foto_url": "https://storage.robustcrm.com.br/williansmeda/files/imoveis/3711/media/789c333231373232323332303231303534ceae482c2fcf32000038c005c7--small.jpg"
     }
   ],
   "campeao_venda": {
