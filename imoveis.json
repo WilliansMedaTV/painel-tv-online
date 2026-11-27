@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-27T16:43:51",
+  "gerado_em": "2026-11-27T20:50:42",
   "total": 13,
   "imoveis": [
     {
@@ -139,7 +139,7 @@
       "codigo": "3711",
       "titulo_tipo": "Loja",
       "endereco": "Avenida Doutor Renato de Andrade Maia, 1028 - -, Parque Renato Maia, Guarulhos - SP",
-      "captador": "maria vendramini",
+      "captador": "Andrea Marques",
       "tipo_negociacao": "Locação",
       "valor": 8000,
       "quartos": null,
